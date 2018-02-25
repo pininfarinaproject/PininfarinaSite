@@ -1,0 +1,72 @@
+/* Change the spacing, font weight and font to be same as woocommerce in the settings labels*/
+.form-table th {
+ padding: 0 0 12px 0;
+ font-weight: normal;
+ font-family: open sans;
+ font-size: 13px;
+ 
+}
+/* Change the spacing, font weight and font to be same as woocommerce in the settings text*/
+.form-table td {
+ padding: 0 0 12px 0;
+ font-weight: normal;
+ font-family: open sans;
+ font-size: 13px;
+}
+/* Change the width of vertical tabs*/
+.z-tabs.vertical.top-left > ul{
+ width: 20%;
+}
+/* Change the font color of the active tab so that it looks similar to woocommerce*/
+.z-tabs.silver > ul > li.z-active > a {
+ color: black;	
+}
+/* Change the font color of the tabs so that it looks similar to woocommerce*/
+.z-tabs.silver > ul > li > a {
+ color: #2ea2cc;	
+}
+/* Change the font of the tabs so that it looks similar to woocommerce*/
+.z-tabs {
+ font-family: open sans;
+}
+
+// This is not working but later I will figure it out
+@media screen and ( min-width: 480px) {
+	.z-tabs.vertical > ul {
+		min-width : none;
+		width: 5%;
+		
+	}
+}
+
+@media screen and ( min-width: 800px) {
+	.z-tabs.vertical.top-left > ul{ {
+		min-width : none;
+		width: 5%;
+		
+	}
+}
+
+.bkap-form-table td{
+	padding: 2px 0px 2px 35px;
+	
+}
+
+.bkap_updated_notice {
+	padding: 2px 2px 2px 10px;
+	font-weight: bold;
+	background-color: white;
+	border-style: solid;
+	border-color: white white white green;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.bkap-gcal-info {
+	padding: 0px 0px 0px 10px;
+	font-weight: bold;
+	background-color: white;
+	border-style: solid;
+	border-color: white white white blue;
+	margin-bottom: 10px;
+}

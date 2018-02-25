@@ -1,0 +1,1021 @@
+#woocommerce-booking . hndle {
+padding: 10px;
+}
+
+.days-fieldset {
+	border:			1px solid #DCDBDA;
+	float: 			left;
+	margin-bottom: 	10px;
+	margin-left: 	0px;
+	margin-top: 	0;
+	width: 			160px;
+	padding-left:	10px;
+}
+
+/* Styling For Check-in Date Field.
+===================================*/
+.booking_calender {
+	margin-bottom: 10px;
+}
+
+/* Styling For Time Slot Field.
+===================================*/
+.time_slot {
+	font-family: inherit;
+}
+
+/* Styling For Time Slot Field.
+===================================*/
+.show_time_slot {
+	margin-bottom: 10px;
+}
+
+/*
+===================================*/
+.day-checkbox{
+ 
+}
+
+/* 
+===================================*/
+.save_button{
+	background: 		#0091cd;
+	border-color: 		#0073aa;
+	box-shadow: 		inset 0 1px 0 rgba(120,200,230,.6);
+	color: 				#fff;
+	display: 			inline-block;
+	text-decoration: 	none;
+	font-size: 			13px;
+	line-height: 		26px;
+	height: 			28px;
+	margin: 			0;
+	padding: 			0 10px 1px;
+	cursor: 			pointer;
+	border-width: 		1px;
+	border-style: 		solid;
+	border-radius: 		3px;
+	white-space: 		nowrap;
+	box-sizing: 		border-box;
+}
+
+/* 
+===================================*/
+#test_connection_ajax_loader{
+	display: none;
+}
+
+
+/* Date Picker Default Styles starts here
+==========================================*/
+.ui-datepicker {
+    padding: 		0;
+    margin: 		0;
+    border-radius: 	0px !important;
+    border: 		1px solid #dfdfdf !important;
+    border-top: 	none;
+    box-shadow: 	0 3px 6px rgba(0, 0, 0, 0.075);
+    min-width: 		fit-content;
+    z-index:		9999!important;
+}
+
+.ui-datepicker * {
+    padding: 				0;
+    font-family: 			"Open Sans", sans-serif;
+    -webkit-border-radius: 	0;
+    -moz-border-radius: 	0;
+    border-radius: 			0;
+}
+
+.ui-datepicker table {
+    font-size: 			13px;
+    margin: 			0;
+    border: 			none;
+    border-collapse: 	collapse;
+}
+
+.ui-datepicker .ui-widget-header,
+.ui-datepicker .ui-datepicker-header {
+    background-image: 	none;
+    border: 			none;
+    font-weight: 		normal;
+}
+
+.ui-datepicker .ui-datepicker-header .ui-state-hover {
+    background: 	transparent;
+    border-color: 	transparent;
+    cursor: 		pointer;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    margin: 		0;
+    padding: 		10px 0;
+    font-size: 		14px;
+    line-height: 	14px;
+    text-align: 	center;
+}
+
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+    position: 	relative;
+	margin-top: 6px;
+    height: 	34px;
+    width: 		34px;
+}
+
+.ui-datepicker .ui-state-hover.ui-datepicker-prev,
+.ui-datepicker .ui-state-hover.ui-datepicker-next {
+    border: none;
+}
+
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-prev-hover {
+    left: 0;
+}
+
+.ui-datepicker .ui-datepicker-next,
+.ui-datepicker .ui-datepicker-next-hover {
+    right: 0;
+}
+
+.ui-datepicker .ui-datepicker-header .ui-datepicker-next span,
+.ui-datepicker .ui-datepicker-header .ui-datepicker-prev span {
+    display: none;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+    float: left;
+}
+
+.ui-datepicker .ui-datepicker-next {
+    float: right;
+}
+
+.ui-datepicker .ui-datepicker-prev:before {
+    content: 			"";
+    display: 			inline-block;
+    width: 				0.5em;
+    height: 			0.5em;
+    border-left: 		0.1em solid;
+    border-bottom: 		0.1em solid;
+	-ms-transform: 		rotate(45deg);
+	-webkit-transform: 	rotate(45deg);
+	-moz-transform: 	rotate(45deg);
+	-o-transform: 		rotate(45deg);
+    transform: 			rotate(45deg);
+    margin-left: 		0.6em;
+	font: 				normal 20px/34px 'dashicons';
+}
+
+.ui-datepicker .ui-datepicker-next:before {
+    content: 			"";
+    display: 			inline-block;
+    width: 				0.5em;
+    height: 			0.5em;
+    border-right: 		0.1em solid;
+    border-top: 		0.1em solid;
+	-ms-transform: 		rotate(45deg);
+	-webkit-transform: 	rotate(45deg);
+	-moz-transform: 	rotate(45deg);
+	-o-transform: 		rotate(45deg);
+	-webkit-transform:	rotate(45deg);
+    transform: 			rotate(45deg);
+    margin-left: 		0.6em;
+	font: 				normal 20px/34px 'dashicons';
+}
+
+.ui-datepicker .ui-datepicker-prev-hover:before,
+.ui-datepicker .ui-datepicker-next-hover:before {
+    opacity: 0.7;
+}
+
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+    width: 33%;
+}
+
+.ui-datepicker thead {
+    font-weight: 600;
+}
+
+.ui-datepicker th {
+    padding: 	10px !important;
+	font-size: 	12px;
+}
+
+.ui-datepicker td {
+    padding: 	0 !important;
+    border: 	1px solid #f4f4f4;
+}
+
+.ui-datepicker td.ui-datepicker-today {
+    background-color: #f0f0c0;
+}
+
+.ui-datepicker td.ui-datepicker-current-day {
+    background: #bbdd88;
+}
+
+.ui-datepicker td .ui-state-default {
+    border: 			none;
+    text-align: 		center;
+    text-decoration: 	none;
+    width: 				auto;
+    display: 			block;
+    padding: 			5px 10px;
+    font-weight: 		normal;
+}
+
+.ui-datepicker td.ui-state-disabled .ui-state-default {
+    opacity: 0.5;
+}
+.ui-datepicker-multi {
+	width: 37em !important;	
+}
+
+/* for showing the calendar icon inside the booking field on product page */
+.bkap_start_date { 
+	position: relative;
+	width:50%;
+}
+.bkap_start_date input { 
+	background:#fff;
+	display:block;
+	width: 100% !important;
+	box-sizing: border-box;
+}
+.bkap_start_date img { 
+	position: absolute;
+	top: 53%;
+	right: 5%; 
+}
+
+.bkap_end_date { 
+	position: relative;
+	width:50%;
+}
+.bkap_end_date input { 
+	background:#fff;
+	display:block;
+	width: 100% !important;
+	box-sizing: border-box;
+}
+.bkap_end_date img { 
+	position: absolute;
+	top: 63%;
+	right: 5%; 
+}
+/* classes for showing border around the booking fields */
+.bkap-booking-form {
+	border:1px solid #ddd;
+	padding: 1em 1em;
+	width: 100%;
+}
+
+/* Styling the availability message */
+
+.show_stock_status{
+    border-bottom: 1px #ddd solid;
+    margin-bottom: 7px;
+    padding: 3px;
+}
+
+/* end of classes for showing calendar icon inside booking field on product page */
+
+/* Date Picker Default Styles Ends Here
+==========================================*/
+
+/** Widget css **/
+.widget_product_search input[type="submit"] {
+	margin-bottom: 1em;
+	position: relative;
+}
+
+
+/* Below is the new CSS for the Booking Options settings */
+/*
+#booking_enable_date{
+	margin-left : 50px;
+}
+
+#enable_booking_day_type{
+	margin-left : 70px;
+}
+
+#enable_booking_day_and_time_type{
+	
+	margin-left : 50px;
+}
+
+img.help_tip{
+	float : right;
+	margin-right: 20px !important;
+}
+
+
+#booking_enable_type:hover + #show-booking-day-description{
+	display: block;
+}
+
+*/
+
+/* Toggle Button Styling Starts Here
+=====================================*/
+
+.bkap_switch {
+  position: relative;
+  display: 	inline-block;
+  width: 	40px;
+  height: 	20px;
+}
+
+.bkap_switch input {
+	display: none;
+}
+
+.bkap_slider {
+  position: 			absolute;
+  cursor: 				pointer;
+  top: 					0;
+  left: 				0;
+  right: 				0;
+  bottom: 				0;
+  background-color: 	#ccc;
+  -webkit-transition: 	.4s;
+  transition: 			.4s;
+}
+
+.bkap_slider:before {
+  position: 			absolute;
+  content: 				"";
+  height: 				16px;
+  width: 				16px;
+  left: 				4px;
+  bottom: 				2px;
+  background-color: 	white;
+  -webkit-transition: 	.4s;
+  transition: 			.4s;
+}
+
+input:checked + .bkap_slider {
+  background-color: #006799;
+}
+
+input:focus + .bkap_slider {
+  box-shadow: 0 0 1px green;
+}
+
+input:checked + .bkap_slider:before {
+  -webkit-transform: 	translateX(16px);
+  -ms-transform: 		translateX(16px);
+  transform: 			translateX(16px);
+}
+
+/* Toggle Button Styling Ends Here
+==================================*/
+
+
+
+/* Rounded bkap_sliders
+===================*/
+.bkap_slider.round {
+  border-radius: 32px;
+}
+
+.bkap_slider.round:before {
+  border-radius: 50%;
+}
+
+/* toggle Button styling ends here
+==================================*/
+
+
+.bkap_select2 {
+	width: 500px;
+}
+
+#add_weekday_lockout_section table {
+	width:		auto;
+	margin-top:	10px;
+}
+
+
+
+
+/* Stying using flexbox
+=============================*/
+
+/* Enable Booking DIV
+======================*/
+.booking_options-flex-main {
+	display: flex;
+}
+
+.booking_options-flex-child {
+	flex: 1;
+}
+
+
+/* Booking Types DIV
+=====================*/
+.booking_types-flex-main {
+	margin-top: 20px;
+	display: 	flex;
+}
+
+.booking_types-flex-child {
+	flex: 		1;
+	display: 	flex;
+}
+
+/* Booking radio button DIV
+============================*/
+.booking_types-flex-child-day {
+	flex: 1;
+}
+
+/* Only Day (Single Day and Multiple Days) Div
+===============================================*/
+
+.only_day_booking_section_flex_main {
+	margin-top: 20px;
+	display: 	flex;
+}
+
+.only_day_booking_section_flex_child1 {
+	flex:	0 0 33.5%;
+	
+}
+.only_day_booking_section_flex_child2 {
+	flex:	1;
+	display: flex;
+}
+.only_day_booking_section_flex_child21{
+	flex: 0 0 25%;
+}
+.only_day_booking_section_flex_child22{
+	flex: 1;
+}
+
+
+.weekdays_flex_main{
+	margin-top: 20px;
+}
+.weekdays_flex_child {
+	display: flex;
+}
+.weekdays_flex_child_1 {
+	flex: 		1;
+	min-width: 	89px
+}
+.weekdays_flex_child_2 {
+	flex: 1;
+}
+.weekdays_flex_child_3 {
+	flex: 1;
+}
+.weekdays_flex_child_4 {
+	flex: 1;
+}
+
+
+/* Purchase without choosing date
+===============================================*/
+
+#purchase_wo_date_section {
+	margin-top:		15px;
+	margin-bottom:	15px;
+}
+
+
+/* Date and Time Div
+===============================================*/
+
+.date_and_time_section_flex_main{
+	display: flex;
+	
+	margin: 0 25%;
+}
+
+
+/* Removed as per old specific date table
+.specific_dates_main_div{
+	margin-top:10px;
+	border-style: solid;
+    border-width: 1px;
+	border-color: #eee;
+}
+.specific_dates_main_block{
+	display:flex;
+    align-items: center;
+	justify-content : space-between;
+	margin: 0 15%;
+}
+textarea[name="booking_specific_date_booking"]{
+	min-width: 200px;
+}
+*/
+
+div > input[type=number] {
+	width: 80px;
+}
+div > input[type=text] {
+	width: 80px;
+}
+
+div p input[type=number] {
+	width: 55px;
+}
+
+.another_specific {
+	display: flex
+}
+
+
+@media ( max-width : 800px ){
+	
+	/* When on mobile Enable Booking DIV*/
+	.booking_options-flex-main {
+		flex-direction:	column;
+		padding: 		5px 0px 5px 0px;
+		
+	}
+	
+	.booking_options-flex-child {
+		padding: 5px;
+	}
+	
+	/* When on mobile Enable Booking DIV */
+	.booking_types-flex-main {
+		flex-direction:	column;
+		padding: 		5px 0px 5px 0px;
+		
+	}
+	
+	.booking_types-flex-child {
+		padding: 5px;
+	}
+	
+	/* Removing flex for Single Day and Multiple Nights*/
+	.only_day_booking_section_flex_child1{
+	flex: none;
+	}
+	
+}
+
+
+/* Styling zozo tab as per the WooCommerce Product Data.
+=========================================================*/
+.z-tabs.vertical > ul > li.z-active > a {
+	background-color: 	#eee !important;
+	font-weight: 		575;
+}
+
+.z-tabs.medium.vertical > ul > li > a {
+	color: #0073aa;
+}
+
+#bkap-tabbed-nav {
+	margin: -6px -12px -4px -12px;
+  	
+} 
+.z-tabs > ul, .z-tabs > ul > li > a, .z-tabs > .z-container {
+   	border-bottom : 1px solid #eee;
+}
+.z-tabs.vertical > ul > li.z-active > a {
+	font-weight: 	600;
+	color: 			black;
+	
+}
+
+.z-tabs.medium.vertical > ul > li > a {
+	border: 			none;
+	background-color: 	#fafafa;
+    border-right: 		1px solid #eee;
+	border-bottom: 		1px solid #eee;
+}
+
+/* Styling zozo tab as per the WooCommerce Product Data Ends Here.
+==================================================================*/
+
+table.specific {
+	border-collapse: 	collapse;
+	border: 			1px solid #eee;
+	margin: 			0 -2% 0 -2%;
+}
+
+table.specific tr td {
+	border: 	1px solid #eee;
+	padding: 	1%;
+}
+table.specific tr th, table#bkap_date_timeslot_table tr th, table#bkap_fixed_block_booking_table tr th, table#bkap_price_range_booking_table tr th{
+	padding-top: 	5px;
+	padding-bottom: 5px;
+	font-weight: 	normal;
+}
+
+.red:hover {
+	background-color: red;
+}
+
+.fake-input {
+	position: 	relative; 
+	width:		100%;
+}
+.fake-input input {
+	border:		none;
+	background:	#fff; 
+	display:	block; 
+	width: 		100%; 
+	box-sizing: border-box;
+}
+.fake-input img {
+	position: 	absolute; 
+	top: 		4px; 
+	right: 		5px }
+
+.fake-textarea {
+	position: 	relative; 
+	width:		100%;
+}
+.fake-textarea textarea { 
+	border:		none;
+	background:	#fff;
+	display:	block; 
+	width: 		100%; 
+	box-sizing: border-box
+}
+.fake-textarea img { 
+	position: 	absolute; 
+	top: 		4px; 
+	right: 		5px
+}
+
+textarea {
+	overflow: auto;
+	
+}
+td.remove {
+	width: 		16px!important;
+	cursor: 	pointer;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAOElEQVQYV2O8f//+fwYgUFRUZATRMAATZ4QxkBUhi4F1IQsgmwIyFW4suiKYlcQpwGsFQUcS8iYAtbQueUkqcX4AAAAASUVORK5CYII=) no-repeat center!important;
+	
+}
+
+input[id^=weekday_lockout_] {
+	height: 24px;
+}
+
+
+@media screen and (max-width: 782px){
+	
+	.weekdays_flex_child_4 > input[type="text"] {
+		padding: 2px 10px !important; 
+	}
+}
+
+/*
+@media screen and ( min-width: 480px ) {
+	.z-tabs.vertical > ul {
+		min-width : 100px;
+	}
+	
+}
+*/
+
+@media ( min-width: 320px ) and ( max-width: 895px ) {
+    /*.z-tabs.medium.vertical > ul > li > a {
+	 background-color: red;
+    }
+    */
+    .bkap_tab{
+		font-size: 0 !important;
+    }
+    
+	#bkap_collapse {
+		font-size: 0 !important;
+    }
+    
+    .bkap_tab .fa{
+		font-size: 12px !important;
+    }
+    
+    #bkap_collapse{
+	display:none !important;
+    }
+    
+    .z-tabs.vertical.top-left > ul {
+		width: 10% !important;
+    }
+}
+
+
+
+/* Styling specific date/month div.
+===================================*/
+.specific_date {
+	width:		100%;
+	margin-top:	20px;
+}
+.bkap_lockout_column_data_4 {
+	width: 26%;
+}
+
+/* Styling close button in the specific date/month table.
+=========================================================*/
+td.bkap_remove {
+	width: 		40px;
+    cursor: 	pointer;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAOElEQVQYV2O8f//+fwYgUFRUZATRMAATZ4QxkBUhi4F1IQsgmwIyFW4suiKYlcQpwGsFQUcS8iYAtbQueUkqcX4AAAAASUVORK5CYII=) no-repeat center !important;
+}
+
+td.bkap_remove:hover {
+	background: #d73026 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAJCAYAAAAPU20uAAAAXElEQVQYV2P8DwQMQMAIBCAaBuDiMAayIhSxNery/4NvPEDWDGev1VBgABuLTRFIMuTmQ4S9yMYiWwd3GLoCmCJGZAmQsSCA7Ca4Apid6G5iBDkQJAhyELJXYOIAYDU73N3P8p4AAAAASUVORK5CYII=) no-repeat center !important;
+}
+
+/* Styling to show Fixed and Range fields in middle of the Booking meta box.
+===========================================================================*/
+.bkap_box{
+	float: 		right;
+    margin-top: -0.3%;
+	font-size: 	small;
+}
+
+/* Styling to draw border on bottom of the heading
+==================================================*/
+.bkap_weekdays_heading {
+	padding-bottom:	5px;
+	border-bottom:	1px solid #eee;
+}
+
+/* Styling to draw border on bottom of the heading
+==================================================*/
+/*
+a#addnew:before {
+   	font-family: Dashicons;
+   	content: "\f508";
+	padding-left: 5px;
+}
+*/
+
+/* Date and Time Table Stylings.
+ * ======================================= */
+
+table#bkap_date_timeslot_table {
+	table-layout: fixed;
+	border: 1px solid #eee; 
+	border-collapse:none;
+	width:104%;
+	margin:2% -2% 0 -2%; 
+	border-collapse: collapse;
+}
+
+table#bkap_date_timeslot_table td, table#bkap_fixed_block_booking_table td, table#bkap_price_range_booking_table td{
+    border: 1px solid #eee;
+    padding: 5px 5px;
+}
+
+.bkap_date_and_timeslot_main_div {
+	width:		100%;
+	margin-top:	20px;
+	clear: both;
+}
+
+
+/* Below is the styling for Popup when date and time is clicked.
+ * ======================================= */
+
+table.bkap_date_and_timeslot_table {
+	border-collapse: 	collapse;
+	border: 			1px solid #eee;
+	margin: 			0 -2% 0 -2%;
+}
+
+table.bkap_date_and_timeslot_table tr td {
+	border: 	1px solid #eee;
+	padding: 	1%;
+}
+table.bkap_date_and_timeslot_table tr th {
+	padding-top: 	5px;
+	padding-bottom: 5px;
+	font-weight: 	normal;
+}
+span#bkap_collapse{
+	display: block;
+    border: none;
+    background-color: #fafafa;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 12px 10px;
+	color: #0073aa;
+	font-size: 12px;
+	cursor: pointer;
+	padding-left: 4%;
+}
+
+@media ( max-width: 767px ) {
+	
+
+  }
+
+/* Popup container - can be anything you want */
+.bkap_popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.bkap_popup .bkap_popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+	font-size: .8em;
+}
+
+/* Popup arrow */
+.bkap_popup .bkap_popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.bkap_popup .bkap_show {
+    visibility: visible;
+    -webkit-animation: bkap_fadeIn 1s;
+    animation: bkap_fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes bkap_fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes bkap_fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+
+input[type=time]::-webkit-inner-spin-button, 
+input[type=time]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+.select2-choices{
+    width: 95% !important;
+}
+
+.select2-input{
+	width: 0px !important;
+}
+
+/* For expand and close link in the availability date/month table.
+ * ======================================= */
+.bkap_expand-close, .bkap_resource_expand-close{
+	float: right;
+	font-size: 12px;
+}
+
+/* Styling for Sve Changes Button in Booking metabox.
+ * ======================================= */
+
+.bkap-primary{
+	height: 35px !important;
+}
+
+/* Styling for Block Pricing section
+ * ======================================= */
+.block_pricing_flex_main{
+	display: 	flex;
+	justify-content: space-around;
+    align-items: stretch;
+    max-width: 100%;
+}
+
+.block_pricing_flex_child.pricing_left {
+	width: 20%;
+}
+.block_pricing_flex_child.pricing_right {
+	width: 20%;
+}
+.block_pricing_flex_child.pricing_center {
+	width: 60%;
+}
+.block_type_main{
+	display: 	flex;
+}
+
+.block_pricing_flex_child_block_type{
+	flex: 		1;
+}
+.bkap_help{
+	text-align : right;
+}
+
+/* Styling Fixed Block Booking table.
+ * =====================================*/
+table#bkap_fixed_block_booking_table, table#bkap_price_range_booking_table{
+	width:100%;
+	border: 1px solid #eee; 
+	border-collapse:none;
+	
+	
+	border-collapse: collapse;	
+}
+
+/* disabling the Fixed Block Booking table and Price By Rnage of Days table
+ * */
+
+.bkap_disable_block_pricing{
+	
+	pointer-events: none;
+    opacity: 0.4;
+}
+.bkap_disable_block_pricing:hover{
+	cursor: no-drop;
+}
+
+/* Global Settings Page */
+
+/* width for Theme switcher and Holidays selection datepicker div */
+#booking_switcher, #booking_new_switcher {
+	width: 18em;
+}
+
+/* Highlighting dates on Holidays multi select datepicker */
+.ui-datepicker .ui-datepicker-calendar .ui-state-highlight a {
+	background: #743620 none;
+	color: white;
+}
+
+/**	
+ * Ajax pagination for time slots css
+ */
+
+ .bkap_toolbar {
+    float: right !important;
+    line-height: 24px;
+ }
+
+ .bkap_toolbar .bkap_displaying_num {
+    color: #777;
+    font-size: 12px;
+    font-style: italic;
+ }
+
+ .bkap_toolbar a.disabled, .bkap_toolbar a.disabled:active, .bkap_toolbar a.disabled:focus, .bkap_toolbar a.disabled:hover {
+    color: #a0a5aa;
+    background: rgba(0,0,0,.05);
+}
+
+.bkap_toolbar a {
+    padding: 0 10px 3px;
+    background: rgba(0,0,0,.05);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.bkap_screen_reader_text, .bkap_screen_reader_text span {
+    position: absolute;
+    margin: -1px;
+    padding: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    border: 0;
+    word-wrap: normal !important;
+}
+
+.bkap_replace_response_data {
+
+	min-height: 50% !important;
+}
+
+.bkap_add_resource, .bkap_add_resource_id {
+	float:right;
+	margin-left: 10px !important;
+}

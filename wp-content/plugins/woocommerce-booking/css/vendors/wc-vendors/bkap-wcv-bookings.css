@@ -1,0 +1,306 @@
+/** Pagination **/
+.pagination-wrap ul.pagination {
+	display: inline-block;
+	padding-left: 0;
+	margin: 20px 0;
+	border-radius: 4px;
+	float: right;
+}
+.pagination-wrap ul.pagination > li {
+	display: inline;
+}
+.pagination-wrap ul.pagination > li > span {
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	margin-left: -1px;
+	line-height: 1.428571429;
+	text-decoration: none;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+.pagination-wrap ul.pagination > li > span.current {
+	background-color: #eee;
+	color: #999;
+}
+.pagination-wrap ul.pagination > li > a {
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	margin-left: -1px;
+	line-height: 1.428571429;
+	text-decoration: none;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+.pagination-wrap ul.pagination > li > a:hover {
+	background-color: #eee;
+	color: #999;
+}
+
+
+/** View Bookings Menu **/
+#view_bookings {
+	margin-top:40px;
+}
+
+/*#bkap_export {
+	float: right;
+	display: inline-block;
+}
+
+#bkap_export a {
+	background-color: #e2e2e2;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	border: 1px solid #e2e2e2;
+	border-radius: 3px;
+}*/
+
+#bkap_header {
+	float: left;
+	display: inline-block;
+}
+
+/** Horizontal Tabs **/
+.bkap-wcv-tabs .tabs-nav {
+		list-style: none;
+		padding: 0
+}
+
+.bkap-wcv-tabs .tabs-nav li {
+		line-height: 1.7;
+		position: relative;
+		margin: 0
+}
+
+.bkap-wcv-tabs .tabs-nav li a {
+		padding: .5em 1em;
+		display: block;
+		border: 1px solid transparent
+}
+
+.bkap-wcv-tabs .tabs-nav li a:hover {
+		background: #f0f0f0
+}
+
+.bkap-wcv-tabs .tabs-nav li.active a {
+		color: #555;
+		cursor: default;
+		text-decoration: none;
+		background: #fff;
+		border: 1px solid #ccc
+}
+
+.bkap-wcv-tabs .tabs-nav:after {
+		content: "";
+		display: table;
+		clear: both
+}
+
+.bkap-wcv-tabs .tabs-content {
+		margin-top: 1.5em
+}
+
+.bkap-wcv-tabs.top>.tabs-nav {
+		border-bottom: 1px solid #ccc
+}
+
+.bkap-wcv-tabs.top>.tabs-nav li {
+		float: left
+}
+
+.bkap-wcv-tabs.top>.tabs-nav li a {
+		margin-right: .4em;
+		-moz-border-radius: 4px 4px 0 0;
+		-webkit-border-radius: 4px;
+		border-radius: 4px 4px 0 0
+}
+
+.bkap-wcv-tabs.top>.tabs-nav li.active {
+		margin: 0 0 -2px
+}
+
+.bkap-wcv-tabs.top>.tabs-nav li.active a {
+		border-bottom-color: transparent
+}
+
+.bkap-wcv-tabs.bottom>.tabs-nav {
+		border-top: 1px solid #ccc
+}
+
+.bkap-wcv-tabs.bottom>.tabs-nav li {
+		float: left
+}
+
+.bkap-wcv-tabs.bottom>.tabs-nav li a {
+		margin-right: .4em;
+		-moz-border-radius: 0 0 4px 4px;
+		-webkit-border-radius: 0;
+		border-radius: 0 0 4px 4px
+}
+
+.bkap-wcv-tabs.bottom>.tabs-nav li.active {
+		margin: -2px 0 0
+}
+
+.bkap-wcv-tabs.bottom>.tabs-nav li.active a {
+		border-top-color: transparent
+}
+
+.bkap-wcv-tabs.left>.tabs-nav {
+		border-right: 1px solid #ccc;
+		float: left;
+		margin-right: 2em
+}
+
+.bkap-wcv-tabs.left>.tabs-nav li {
+		float: none;
+		text-align: right
+}
+
+.bkap-wcv-tabs.left>.tabs-nav li a {
+		margin-bottom: .4em;
+		-moz-border-radius: 4px 0 0 4px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px 0 0 4px
+}
+
+.bkap-wcv-tabs.left>.tabs-nav li.active {
+		margin: 0 -2px 0 0
+}
+
+.bkap-wcv-tabs.left>.tabs-nav li.active a {
+		border-right-color: transparent
+}
+
+.bkap-wcv-tabs.right>.tabs-nav {
+		border-left: 1px solid #ccc;
+		float: right;
+		margin-left: 2em
+}
+
+.bkap-wcv-tabs.right>.tabs-nav li {
+		float: none
+}
+
+.bkap-wcv-tabs.right>.tabs-nav li a {
+		margin-bottom: .4em;
+		-moz-border-radius: 0 4px 4px 0;
+		-webkit-border-radius: 0;
+		border-radius: 0 4px 4px 0
+}
+
+.bkap-wcv-tabs.right>.tabs-nav li.active {
+		margin: 0 0 0 -2px
+}
+
+.bkap-wcv-tabs.right>.tabs-nav li.active a {
+		border-left-color: transparent
+}
+
+/** Status column **/
+span.bkap_wcv_status {
+	display:block;
+	text-indent:-9999px;
+	position:relative;
+	height:1em;
+	width:1em
+}
+
+span.bkap_wcv_status:before {
+	font-family:woocommerce;
+	speak:none;
+	font-weight:400;
+	font-variant:normal;
+	text-transform:none;
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	margin:0;
+	text-indent:0;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	text-align:center;
+	font-size:1.4em
+}
+
+span.status_head:before {
+	content:"\e011";
+	color:#2ea2cc
+}
+
+span.status-incart:before, span.status-unpaid:before{
+	content:"\e033"
+}
+span.status-pending-confirmation:before,span.status-pending:before{
+	content:"\e012";
+	color:#ffba00
+}
+span.status-confirmed:before{
+	content:"\e011";
+	color:#7ad03a
+}
+span.status-paid:before{
+	content:"\e015";
+	color:#2ea2cc
+}
+span.status-cancelled:before{
+	content:"\e013";
+	color:#a00
+}
+span.status-complete:before{
+	content:"\e015";
+	color:#999
+}
+
+.tips {
+		cursor: help;
+		text-decoration: none;
+}
+
+/** Action buttons **/
+.bkap-button {
+	background: none; 
+	display:inline-block;
+	text-indent:-9999px;
+	position:relative;
+	padding:0!important;
+	height:2em!important;
+	width:2em;
+	margin-right:4px!important;
+	color: inherit;
+}
+.bkap-button:after{
+	font-family:woocommerce;
+	speak:none;
+	font-weight:400;
+	font-variant:normal;
+	text-transform:none;
+	-webkit-font-smoothing:antialiased;
+	margin:0;
+	text-indent:0;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	text-align:center;
+	content:"\e001";
+	line-height:1.85
+}
+
+.bkap_confirm:after {
+	content: "\e017";
+}
+
+.bkap_edit:after {
+	content: "\e603";
+}
+
+.bkap_cancel:after {
+	content: "\e013";
+}

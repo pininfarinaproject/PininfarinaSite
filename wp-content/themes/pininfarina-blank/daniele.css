@@ -1,0 +1,118 @@
+/* page progetto css*/
+
+.container-project {
+  content: "";
+  display: table;
+  clear: both;
+  margin-top: 3%;
+}
+
+.project-box-title {
+  width: 50%;
+  background-color: #55bb16;
+  font-size: 37px;
+  font-weight: bold;
+  height: 60px;
+  padding: 2%;
+  float: left;
+  color: #fff;
+}
+
+.project-box-text {
+  float: left;
+  margin-top: 3%;
+  padding-right: 3%;
+  width: 50%;
+}
+
+.project-image {
+  float: right;
+  width: 50%;
+  margin-top: 7%;
+}
+
+.project-image img{
+  width: 100%;
+}
+
+.workshop-activities-title {
+  font-size: 30px;
+  margin-top: 2%;
+  font-weight: bold;
+}
+
+.container-workshop {
+  content: "";
+  display: table;
+  clear: both;
+  margin: 1% 0 1% 0;
+  color: #fff;
+}
+
+.green1 {
+  background-color: #4ca813;
+}
+
+.green2 {
+  background-color: #449511;
+}
+
+.green3 {
+  background-color: #3b820f;
+}
+
+.workshop-box {
+  float: left;
+  padding: 2%;
+}
+
+.workshop-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.workshop-image {
+  float: left;
+}
+
+.d_progetto_mainTitle {
+  /* background-color: #ff4f41; */
+    padding: 2%;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* line-height: 50px; */
+    color: #55bb16;
+    border-bottom: 4px solid #55bb16;
+    margin-top: 5%;
+}
+
+/* RESPONSIVE PROGETTO */
+
+@media only screen and (max-width: 500px) {
+
+  .project-image {
+    width: 100%;
+  }
+  .project-box-text {
+    width: 100%;
+  }
+  .workshop-activities-title {
+    line-height: 38px;
+  }
+  .workshop-box {
+    width: 100% !important;
+  }
+  .workshop-image {
+    width: 100% !important;
+  }
+  .d_progetto_mainTitle {
+    padding: 4%;
+  }
+
+}
+
+
+
+
+

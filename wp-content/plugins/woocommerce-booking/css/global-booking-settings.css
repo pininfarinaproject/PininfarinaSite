@@ -1,0 +1,57 @@
+.bkap_booking_page_woocommerce_booking_page .form-table tr {
+	border-bottom: 1px solid #ddd;
+}
+
+.bkap_booking_page_woocommerce_booking_page .nav-tab {
+	background: white;
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+.bkap_booking_page_woocommerce_booking_page .nav-tab-active, 
+.bkap_booking_page_woocommerce_booking_page .nav-tab-active:focus, 
+.bkap_booking_page_woocommerce_booking_page .nav-tab-active:focus:active, 
+.bkap_booking_page_woocommerce_booking_page .nav-tab-active:hover {
+    background: #0071ff;
+    color: #fff;
+    border: #0071ff;
+}
+
+.bkap_booking_page_woocommerce_booking_page h2 {
+	font-size: 32px;
+	line-height: 1em;
+}
+
+.bkap_booking_page_woocommerce_booking_page #wpbody-content {
+    margin: 0 0 0 -20px;
+    width: auto;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 3px 25px -10px rgba(0, 0, 0, 0.4);
+
+    background-image: url(https://www.tychesoftwares.com/wp-content/themes/tyche-softwares/assets/images/site-logo.svg);
+    padding-top: 120px;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: center top 40px;
+}
+
+.bkap_booking_page_woocommerce_booking_page #wpcontent {
+	background: #f0f0f0;
+}
+
+.tyche-info {
+    background: #ffffff;
+    color: black;
+    padding: 20px 0 20px 20px;
+    border-top: 5px #5b9dd9 solid;
+    border-radius: 5px;
+    box-shadow: 0 20px 30px -15px rgba(0, 0, 0, 0.2);
+}
+
+.bkap-notice-info{
+	padding: 10px;
+    border: 3px solid #00a0ff;
+    text-align: center;
+	box-shadow: 10px 10px 5px #d9ecf7;
+}

@@ -1,0 +1,3239 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-23 15:15+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: admin-bookings.php:40
+msgid "Please choose a bookable product"
+msgstr ""
+
+#: admin-bookings.php:48
+msgid "Invalid order ID provided"
+msgstr ""
+
+#: admin-bookings.php:87
+msgid "Please select the Booking Details."
+msgstr ""
+
+#: admin-bookings.php:138
+msgid "Back Dated bookings cannot be created. Please select a future date."
+msgstr ""
+
+#: admin-bookings.php:142 import-bookings.php:124
+msgid ""
+"The product is not available for the given date for the desired quantity."
+msgstr ""
+
+#: admin-bookings.php:146
+msgid "Bookings cannot be created for grouped products."
+msgstr ""
+
+#: admin-bookings.php:203 admin-bookings.php:293 admin-bookings.php:341
+#: global-menu.php:22 import-bookings.php:23 view-bookings.php:54
+#: woocommerce-booking.php:1735
+msgid "Create Booking"
+msgstr ""
+
+#: admin-bookings.php:205
+msgid ""
+"You can create a new booking for a customer here. This form will create a "
+"booking for the user, and optionally an associated order. Created orders "
+"will be marked as processing."
+msgstr ""
+
+#: admin-bookings.php:215 approve-booking.php:157
+msgid "Customer"
+msgstr ""
+
+#: admin-bookings.php:219
+msgid "Guest"
+msgstr ""
+
+#: admin-bookings.php:230
+msgid "Bookable Product"
+msgstr ""
+
+#: admin-bookings.php:234
+msgid "Select a bookable product..."
+msgstr ""
+
+#: admin-bookings.php:250
+msgid "Create Order"
+msgstr ""
+
+#: admin-bookings.php:256
+msgid ""
+"Create a new corresponding order for this new booking. Please note - the "
+"booking will not be active until the order is processed/completed."
+msgstr ""
+
+#: admin-bookings.php:262
+msgid "Assign this booking to an existing order with this ID:"
+msgstr ""
+
+#: admin-bookings.php:272
+msgid "Next"
+msgstr ""
+
+#: admin-bookings.php:299
+msgid "Booking Data:"
+msgstr ""
+
+#: approve-booking.php:101
+msgid "Your settings have been saved."
+msgstr ""
+
+#: approve-booking.php:108 class-view-bookings-table.php:240
+#: view-bookings.php:167
+msgid "Order ID"
+msgstr ""
+
+#: approve-booking.php:117
+msgid "Date Created"
+msgstr ""
+
+#: approve-booking.php:126
+msgid "Booking Status"
+msgstr ""
+
+#: approve-booking.php:173
+msgid "Name"
+msgstr ""
+
+#: approve-booking.php:182
+msgid "Address"
+msgstr ""
+
+#: approve-booking.php:191
+msgid "Email"
+msgstr ""
+
+#: approve-booking.php:200
+msgid "Phone"
+msgstr ""
+
+#: approve-booking.php:216
+msgid "Product Booked"
+msgstr ""
+
+#: approve-booking.php:225
+msgid "Booking Start Date"
+msgstr ""
+
+#: approve-booking.php:236
+msgid "Booking End Date"
+msgstr ""
+
+#: approve-booking.php:251 bkap-common.php:630 bkap-common.php:954
+#: class-bkap-edit-bookings.php:156 class-bkap-edit-bookings.php:301
+#: class-bkap-edit-bookings.php:415 class-view-bookings-table.php:245
+#: lang.php:17 lang.php:23 lang.php:28 view-bookings.php:172
+#: woocommerce-booking.php:2233
+msgid "Booking Time"
+msgstr ""
+
+#: approve-booking.php:262 block-pricing.php:509 block-pricing.php:617
+msgid "Save"
+msgstr ""
+
+#: attribute-lockout.php:64
+msgid "Equate Booking Lockout with Attribute value(s)"
+msgstr ""
+
+#: attribute-lockout.php:64
+msgid "Booking Lockout for Attribute"
+msgstr ""
+
+#: bkap-calendar-sync.php:17
+msgid "Booking & Appointment - GCal Import Events"
+msgstr ""
+
+#: bkap-calendar-sync.php:352
+msgid " "
+msgstr ""
+
+#: bkap-calendar-sync.php:432 bkap-calendar-sync.php:459 view-bookings.php:74
+msgid "Add to Google Calendar"
+msgstr ""
+
+#: bkap-calendar-sync.php:435 bkap-calendar-sync.php:460
+msgid "Add to other Calendar"
+msgstr ""
+
+#: bkap-calendar-sync.php:457
+msgid "Add To Calendar"
+msgstr ""
+
+#: bkap-common.php:628 bkap-common.php:880
+#: class-bkap-booking-view-bookings.php:177
+#: class-bkap-booking-view-bookings.php:923 class-bkap-edit-bookings.php:154
+#: class-bkap-edit-bookings.php:299 class-bkap-edit-bookings.php:413
+#: class-bkap-gcal-event-view.php:77 lang.php:15 lang.php:21 lang.php:26
+#: woocommerce-booking.php:2231
+msgid "Start Date"
+msgstr ""
+
+#: bkap-common.php:629 bkap-common.php:895
+#: class-bkap-booking-view-bookings.php:178
+#: class-bkap-booking-view-bookings.php:924 class-bkap-edit-bookings.php:155
+#: class-bkap-edit-bookings.php:300 class-bkap-edit-bookings.php:414
+#: class-bkap-gcal-event-view.php:78 lang.php:16 lang.php:22 lang.php:27
+#: woocommerce-booking.php:2232
+msgid "End Date"
+msgstr ""
+
+#: bkap-common.php:1698 bkap-common.php:1718
+msgid "Paid and Confirmed"
+msgstr ""
+
+#: bkap-common.php:1702
+msgid "Confirmed"
+msgstr ""
+
+#: bkap-common.php:1706 class-view-bookings-table.php:230
+msgid "Pending Confirmation"
+msgstr ""
+
+#: bkap-common.php:1710
+msgid "Cancelled"
+msgstr ""
+
+#: bkap-common.php:1714
+msgid "Draft"
+msgstr ""
+
+#: bkap-config.php:5 bkap-config.php:15
+msgid "Sunday"
+msgstr ""
+
+#: bkap-config.php:6 bkap-config.php:16
+msgid "Monday"
+msgstr ""
+
+#: bkap-config.php:7 bkap-config.php:17
+msgid "Tuesday"
+msgstr ""
+
+#: bkap-config.php:8 bkap-config.php:18
+msgid "Wednesday"
+msgstr ""
+
+#: bkap-config.php:9 bkap-config.php:19
+msgid "Thursday"
+msgstr ""
+
+#: bkap-config.php:10 bkap-config.php:20
+msgid "Friday"
+msgstr ""
+
+#: bkap-config.php:11 bkap-config.php:21
+msgid "Saturday"
+msgstr ""
+
+#: bkap-config.php:14
+msgid "Any Days"
+msgstr ""
+
+#: bkap-config.php:34
+msgid "January"
+msgstr ""
+
+#: bkap-config.php:35
+msgid "February"
+msgstr ""
+
+#: bkap-config.php:36
+msgid "March"
+msgstr ""
+
+#: bkap-config.php:37
+msgid "April"
+msgstr ""
+
+#: bkap-config.php:38
+msgid "May"
+msgstr ""
+
+#: bkap-config.php:39
+msgid "June"
+msgstr ""
+
+#: bkap-config.php:41
+msgid "July"
+msgstr ""
+
+#: bkap-config.php:42
+msgid "August"
+msgstr ""
+
+#: bkap-config.php:43
+msgid "September"
+msgstr ""
+
+#: bkap-config.php:44
+msgid "October"
+msgstr ""
+
+#: bkap-config.php:45
+msgid "November"
+msgstr ""
+
+#: bkap-config.php:46
+msgid "December"
+msgstr ""
+
+#: bkap-config.php:50
+msgid "Custom Range"
+msgstr ""
+
+#: bkap-config.php:51 woocommerce-booking.php:1179
+msgid "Specific Dates"
+msgstr ""
+
+#: bkap-config.php:52
+msgid "Range of Months"
+msgstr ""
+
+#: bkap-config.php:53
+msgid "Holidays"
+msgstr ""
+
+#: bkap-config.php:150
+msgid "12 hour"
+msgstr ""
+
+#: bkap-config.php:151
+msgid "24 hour"
+msgstr ""
+
+#: bkap-functions.php:11
+msgid "DB Update for Booking & Appointment Plugin"
+msgstr ""
+
+#: bkap-global-settings.php:406 bkap-global-settings.php:408
+msgid "Remove Icon"
+msgstr ""
+
+#: block-pricing.php:173 block-pricing.php:425
+msgid "Block Pricing"
+msgstr ""
+
+#: block-pricing.php:431
+msgid "Fixed Block Booking"
+msgstr ""
+
+#: block-pricing.php:436
+msgid "Price By Range Of Nights"
+msgstr ""
+
+#: block-pricing.php:443
+msgid ""
+"Select Fixed Block Booking option if you want customers to book or rent this "
+"product for fixed number of days. </br> Select Price By Range Of Nights "
+"option if you want to charge customers different prices for different day "
+"ranges."
+msgstr ""
+
+#: block-pricing.php:489
+msgid "Price by range of nights :"
+msgstr ""
+
+#: block-pricing.php:505
+msgid "Create block ranges and its per day and/or fixed price."
+msgstr ""
+
+#: block-pricing.php:510 booking-box.php:598
+msgid "Add New Range"
+msgstr ""
+
+#: block-pricing.php:558
+msgid "Minimum Day"
+msgstr ""
+
+#: block-pricing.php:559
+msgid "Maximum Day"
+msgstr ""
+
+#: block-pricing.php:599
+msgid "Fixed Blocks Booking :"
+msgstr ""
+
+#: block-pricing.php:613
+msgid "Create fixed blocks of booking and its price."
+msgstr ""
+
+#: block-pricing.php:618
+msgid "Add New Block"
+msgstr ""
+
+#: block-pricing.php:636
+msgid "Block Name"
+msgstr ""
+
+#: block-pricing.php:637
+msgid "Days"
+msgstr ""
+
+#: block-pricing.php:638
+msgid "Start Day"
+msgstr ""
+
+#: block-pricing.php:639
+msgid "End Day"
+msgstr ""
+
+#: block-pricing.php:640
+msgid "Price ("
+msgstr ""
+
+#: block-pricing.php:872 block-pricing.php:992 booking-box.php:1077
+msgid "Expand"
+msgstr ""
+
+#: block-pricing.php:872 block-pricing.php:992 booking-box.php:1077
+msgid "Close"
+msgstr ""
+
+#: block-pricing.php:1059 block-pricing.php:1181 special-booking-price.php:418
+msgid "Please select an option."
+msgstr ""
+
+#: booking-box.php:28 woocommerce-booking.php:1731
+#: woocommerce-booking.php:1733 woocommerce-booking.php:1734
+msgid "Booking"
+msgstr ""
+
+#: booking-box.php:70
+msgid "General"
+msgstr ""
+
+#: booking-box.php:73
+msgid "Availability"
+msgstr ""
+
+#: booking-box.php:89
+msgid "Enable Booking"
+msgstr ""
+
+#: booking-box.php:143
+msgid "Enable Booking Date on Products Page"
+msgstr ""
+
+#: booking-box.php:153
+msgid "Booking Type"
+msgstr ""
+
+#: booking-box.php:159
+msgid "Only Day"
+msgstr ""
+
+#: booking-box.php:164
+msgid "Date & Time"
+msgstr ""
+
+#: booking-box.php:169
+msgid "Choose booking type for your business"
+msgstr ""
+
+#: booking-box.php:180
+msgid "Single Day"
+msgstr ""
+
+#: booking-box.php:184
+msgid "Multiple Nights"
+msgstr ""
+
+#: booking-box.php:197
+msgid "Enable Inline Calendar"
+msgstr ""
+
+#: booking-box.php:214
+msgid "Enable Inline Calendar on Products Page"
+msgstr ""
+
+#: booking-box.php:224
+msgid "Purchase without choosing a date"
+msgstr ""
+
+#: booking-box.php:243
+msgid ""
+"Enables your customers to purchase without choosing a date. Select this "
+"option if you want the ADD TO CART button always visible on the product "
+"page. Cannot be applied to products that require confirmation."
+msgstr ""
+
+#: booking-box.php:254 booking-box.php:427
+#: includes/product-calendar-sync-settings.php:386
+msgid "Save Changes"
+msgstr ""
+
+#: booking-box.php:270
+msgid "Advance Booking Period (in hours)"
+msgstr ""
+
+#: booking-box.php:282
+msgid ""
+"Enable Booking after X number of hours from the current time. The customer "
+"can select a booking date/time slot that is available only after the minimum "
+"hours that are entered here. For example, if you need 12 hours advance "
+"notice for a booking, enter 12 here."
+msgstr ""
+
+#: booking-box.php:290
+msgid "Number of dates to choose"
+msgstr ""
+
+#: booking-box.php:311
+msgid ""
+"The maximum number of booking dates you want to be available for your "
+"customers to choose from. For example, if you take only 2 months booking in "
+"advance, enter 60 here."
+msgstr ""
+
+#: booking-box.php:319
+msgid "Maximum Bookings On Any Date"
+msgstr ""
+
+#: booking-box.php:334
+msgid ""
+"Set this field if you want to place a limit on maximum bookings on any given "
+"date. If you can manage up to 15 bookings in a day, set this value to 15. "
+"Once 15 orders have been booked, then that date will not be available for "
+"further bookings."
+msgstr ""
+
+#: booking-box.php:342
+msgid "Minimum number of nights to book"
+msgstr ""
+
+#: booking-box.php:356
+msgid ""
+"The minimum number of booking days you want to book for multiple days "
+"booking. For example, if you take minimum 2 days of booking, add 2 in the "
+"field here."
+msgstr ""
+
+#: booking-box.php:364
+msgid "Maximum number of nights to book"
+msgstr ""
+
+#: booking-box.php:378
+msgid ""
+"The maximum number of booking days you want to book for multiple days "
+"booking. For example, if you take maximum 60 days of booking, add 60 in the "
+"field here."
+msgstr ""
+
+#: booking-box.php:483 booking-box.php:1282
+msgid "Weekday"
+msgstr ""
+
+#: booking-box.php:484 booking-box.php:619
+msgid "Bookable"
+msgstr ""
+
+#: booking-box.php:494
+msgid "Maximum bookings"
+msgstr ""
+
+#: booking-box.php:578
+msgid "Set Availability by Dates/Months"
+msgstr ""
+
+#: booking-box.php:597
+msgid "Create custom ranges, holidays and more here."
+msgstr ""
+
+#: booking-box.php:616
+msgid "Range Type"
+msgstr ""
+
+#: booking-box.php:617 booking-box.php:1283
+msgid "From"
+msgstr ""
+
+#: booking-box.php:618 booking-box.php:1284
+msgid "To"
+msgstr ""
+
+#: booking-box.php:620
+msgid "Max bookings"
+msgstr ""
+
+#: booking-box.php:1125
+msgid "time slot"
+msgid_plural "time slots"
+msgstr[0] ""
+msgstr[1] ""
+
+#: booking-box.php:1129
+msgid "Go to the first page"
+msgstr ""
+
+#: booking-box.php:1130
+msgid "Go to the previous page"
+msgstr ""
+
+#: booking-box.php:1132
+msgid "Select Page"
+msgstr ""
+
+#: booking-box.php:1133
+msgid "Current page"
+msgstr ""
+
+#: booking-box.php:1138
+msgctxt "number of pages"
+msgid "of"
+msgstr ""
+
+#: booking-box.php:1140
+msgid "Go to the next page"
+msgstr ""
+
+#: booking-box.php:1141
+msgid "Go to the last page"
+msgstr ""
+
+#: booking-box.php:1219
+msgid "Set Weekdays/Dates And It's Timeslots :"
+msgstr ""
+
+#: booking-box.php:1260
+msgid "Create timeslots for the days/dates selected above."
+msgstr ""
+
+#: booking-box.php:1261
+msgid "Enter time in 24 hours format e.g. 14:00."
+msgstr ""
+
+#: booking-box.php:1262
+msgid ""
+"Leave \"To time\" unchanged if you do not wish to create a fixed time "
+"duration slot."
+msgstr ""
+
+#: booking-box.php:1265
+msgid "Add New Timeslot"
+msgstr ""
+
+#: booking-box.php:1285
+msgid "Maximum Bookings"
+msgstr ""
+
+#: booking-box.php:1286 templates/emails/customer-booking-confirmed.php:73
+msgid "Price"
+msgstr ""
+
+#: booking-box.php:1287
+msgid "Global"
+msgstr ""
+
+#: booking-box.php:1288
+msgid "Note"
+msgstr ""
+
+#: booking-box.php:1344 class-view-bookings-table.php:225
+#: includes/class-import-bookings-table.php:127
+#: templates/meta-boxes/html-bkap-time-slots-meta-box.php:95
+msgid "All"
+msgstr ""
+
+#: booking-confirmation.php:89
+msgid "Requires Confirmation?"
+msgstr ""
+
+#: booking-confirmation.php:108
+msgid ""
+"Enable this setting if the booking requires admin approval/confirmation. "
+"Payment will not be taken at Checkout"
+msgstr ""
+
+#: booking-confirmation.php:168
+msgid "Check Availability"
+msgstr ""
+
+#: booking-confirmation.php:368 woocommerce-booking.php:1738
+msgid "Edit Booking"
+msgstr ""
+
+#: booking-confirmation.php:735
+#, php-format
+msgid ""
+"The product %s has been removed from the order because the booking cannot be "
+"confirmed."
+msgstr ""
+
+#: booking-process.php:190
+msgid "Holiday"
+msgstr ""
+
+#: booking-process.php:191
+msgid "Unavailable for Booking"
+msgstr ""
+
+#: booking-process.php:192
+msgid "Blocked"
+msgstr ""
+
+#: booking-process.php:193
+msgid "Booked"
+msgstr ""
+
+#: booking-process.php:194
+msgid ""
+"Some of the dates in the selected range are unavailable. Please try another "
+"date range."
+msgstr ""
+
+#: booking-process.php:195
+msgid "On Rent"
+msgstr ""
+
+#: booking-process.php:1487
+msgid "Please choose product options&hellip;"
+msgstr ""
+
+#: booking-process.php:1545
+msgid "Please select a date."
+msgstr ""
+
+#: booking-process.php:1553
+msgid "Bookings are full."
+msgstr ""
+
+#: booking-process.php:1555 booking-process.php:2124
+msgid "cart"
+msgstr ""
+
+#: booking-process.php:1878 booking-process.php:2110 import-bookings.php:828
+#: import-bookings.php:856 templates/bookings/bkap-bookings-date.php:111
+msgid "Unlimited "
+msgstr ""
+
+#: cancel-order.php:36 templates/bkap-edit-booking-modal.php:117
+#: templates/meta-boxes/class-bkap-save-meta-box.php:68
+msgid "Cancel"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:112
+msgid "Booking Title"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:172
+#: class-bkap-booking-view-bookings.php:918
+msgid "Status"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:173
+#: class-bkap-booking-view-bookings.php:919
+msgid "ID"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:174
+#: class-bkap-booking-view-bookings.php:920
+#: templates/emails/admin-new-booking.php:25
+#: templates/emails/customer-booking-cancelled.php:21
+#: templates/emails/customer-booking-confirmed.php:21
+msgid "Booked Product"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:175
+#: class-bkap-booking-view-bookings.php:921
+msgid "Booked By"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:176
+#: class-bkap-booking-view-bookings.php:922
+#: templates/emails/customer-booking-confirmed.php:67
+msgid "Order"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:179
+#: class-bkap-booking-view-bookings.php:925 class-view-bookings-table.php:246
+#: view-bookings.php:173 templates/emails/customer-booking-confirmed.php:72
+msgid "Quantity"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:180
+#: class-bkap-booking-view-bookings.php:927 class-view-bookings-table.php:247
+#: view-bookings.php:174
+msgid "Amount"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:181
+#: class-bkap-booking-view-bookings.php:926 class-view-bookings-table.php:248
+#: view-bookings.php:175
+msgid "Order Date"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:182 class-bkap-gcal-event-view.php:82
+#: class-view-bookings-table.php:249
+#: includes/class-import-bookings-table.php:85
+msgid "Actions"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:209
+#, php-format
+msgid "Booking #%d"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:271
+msgid "View"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:279
+msgid "Confirm"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:405
+msgid "All Bookable Products"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:428
+msgid "Select Booking Type"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:747
+msgid "Confirm bookings"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:748
+msgid "Cancel bookings"
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:814
+#, php-format
+msgid "Booking status changed."
+msgid_plural "%s booking statuses changed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-bkap-booking-view-bookings.php:849
+msgid "You have taken too long. Please go back and retry."
+msgstr ""
+
+#: class-bkap-booking-view-bookings.php:995
+msgid "Print Bookings"
+msgstr ""
+
+#: class-bkap-edit-bookings.php:110 class-bkap-edit-bookings.php:197
+#: templates/bkap-edit-booking-modal.php:30
+msgid "Edit Bookings"
+msgstr ""
+
+#: class-bkap-edit-bookings.php:367
+#, php-format
+msgid "Please pay difference amount via Order #%s"
+msgstr ""
+
+#: class-bkap-edit-bookings.php:369
+msgid "Please contact shop manager for differences in amount"
+msgstr ""
+
+#: class-bkap-edit-bookings.php:492
+#, php-format
+msgid ""
+"Booking has been rescheduled from <strong>%s</strong> to <strong>%s</strong> "
+"for <strong>%s</strong>."
+msgstr ""
+
+#: class-bkap-edit-bookings.php:525
+msgid "Allow Bookings to be editable:"
+msgstr ""
+
+#: class-bkap-edit-bookings.php:529
+msgid ""
+"Enabling this option will allow Bookings to be editable from Cart and "
+"Checkout page"
+msgstr ""
+
+#: class-bkap-edit-bookings.php:534
+msgid "Allow Bookings to be reschedulable:"
+msgstr ""
+
+#: class-bkap-edit-bookings.php:538
+msgid ""
+"Enabling this option will allow Bookings to be reschedulable from My Account "
+"page"
+msgstr ""
+
+#: class-bkap-edit-bookings.php:543
+msgid "Minimum number of days for rescheduling:"
+msgstr ""
+
+#: class-bkap-edit-bookings.php:547
+msgid ""
+"Minimum number of days before the booking date, after which Booking cannot "
+"be rescheduled."
+msgstr ""
+
+#: class-bkap-gateway.php:19
+msgid "Check Booking Availability"
+msgstr ""
+
+#: class-bkap-gateway.php:21
+msgid "Request Confirmation"
+msgstr ""
+
+#: class-bkap-gateway.php:31 global-menu.php:24
+msgid "Settings"
+msgstr ""
+
+#: class-bkap-gateway.php:35
+msgid ""
+"This is fictitious payment method used for bookings that require "
+"confirmation."
+msgstr ""
+
+#: class-bkap-gateway.php:36
+msgid "This gateway requires no configuration."
+msgstr ""
+
+#: class-bkap-gateway.php:54
+msgid "This order is awaiting confirmation from the shop manager"
+msgstr ""
+
+#: class-bkap-gateway.php:74
+msgid "Your booking has been confirmed. Thank you."
+msgstr ""
+
+#: class-bkap-gateway.php:76
+msgid ""
+"Your booking is awaiting confirmation. You will be notified by email as soon "
+"as we've confirmed availability."
+msgstr ""
+
+#: class-bkap-gcal-event-view.php:75
+#: includes/class-import-bookings-table.php:81
+#: templates/emails/admin-gcal-import-event.php:15
+msgid "Event Summary"
+msgstr ""
+
+#: class-bkap-gcal-event-view.php:76
+msgid "Description"
+msgstr ""
+
+#: class-bkap-gcal-event-view.php:79
+msgid "Timeslot"
+msgstr ""
+
+#: class-bkap-gcal-event-view.php:80
+msgid "Reason of Failure"
+msgstr ""
+
+#: class-bkap-gcal-event-view.php:81
+#: includes/class-import-bookings-table.php:84
+#: templates/emails/customer-booking-confirmed.php:71
+msgid "Product"
+msgstr ""
+
+#: class-bkap-gcal-event-view.php:147
+#: includes/class-import-bookings-table.php:274
+msgid "Select a Product"
+msgstr ""
+
+#: class-bkap-gcal-event-view.php:174
+msgid "This event is mapped."
+msgstr ""
+
+#: class-bkap-gcal-event-view.php:442
+msgid "Delete Events"
+msgstr ""
+
+#: class-bkap-rescheduled-order.php:81
+#, php-format
+msgid "Additional Payment for %s (Order #%d )"
+msgstr ""
+
+#: class-bkap-rescheduled-order.php:104
+msgid "Related Order"
+msgstr ""
+
+#: class-bkap-rescheduled-order.php:110
+msgid "Parent Order"
+msgstr ""
+
+#: class-view-bookings-table.php:96
+msgid "Select a period"
+msgstr ""
+
+#: class-view-bookings-table.php:97
+msgid "Yesterday"
+msgstr ""
+
+#: class-view-bookings-table.php:98
+msgid "Today"
+msgstr ""
+
+#: class-view-bookings-table.php:99
+msgid "This Week"
+msgstr ""
+
+#: class-view-bookings-table.php:100
+msgid "Fifteen Days"
+msgstr ""
+
+#: class-view-bookings-table.php:101
+msgid "This Month"
+msgstr ""
+
+#: class-view-bookings-table.php:102
+msgid "This Year"
+msgstr ""
+
+#: class-view-bookings-table.php:103
+msgid "Custom"
+msgstr ""
+
+#: class-view-bookings-table.php:226
+msgid "Bookings From Today Onwards"
+msgstr ""
+
+#: class-view-bookings-table.php:227
+msgid "Todays Check-ins"
+msgstr ""
+
+#: class-view-bookings-table.php:228
+msgid "Todays Check-outs"
+msgstr ""
+
+#: class-view-bookings-table.php:229
+msgid "Unpaid"
+msgstr ""
+
+#: class-view-bookings-table.php:231
+msgid "Reserved By GCal"
+msgstr ""
+
+#: class-view-bookings-table.php:241 view-bookings.php:168
+msgid "Customer Name"
+msgstr ""
+
+#: class-view-bookings-table.php:242 view-bookings.php:169
+msgid "Product Name"
+msgstr ""
+
+#: class-view-bookings-table.php:243 view-bookings.php:170
+msgid "Check-in Date"
+msgstr ""
+
+#: class-view-bookings-table.php:244 view-bookings.php:171
+msgid "Check-out Date"
+msgstr ""
+
+#: class-view-bookings-table.php:277
+msgid "Search"
+msgstr ""
+
+#: class-view-bookings-table.php:285
+msgid "Filter"
+msgstr ""
+
+#: class-view-bookings-table.php:308
+msgid "Bookings Over Time"
+msgstr ""
+
+#: class-view-bookings-table.php:315
+msgid "selected "
+msgstr ""
+
+#: class-view-bookings-table.php:489
+msgid "Start Date:"
+msgstr ""
+
+#: class-view-bookings-table.php:491
+msgid "End Date:"
+msgstr ""
+
+#: class-view-bookings-table.php:495
+msgid "From Time:"
+msgstr ""
+
+#: class-view-bookings-table.php:526
+msgid "To Time:"
+msgstr ""
+
+#: global-menu.php:21 woocommerce-booking.php:1747
+msgid "View Bookings"
+msgstr ""
+
+#: global-menu.php:25 license.php:33 license.php:42
+msgid "Activate License"
+msgstr ""
+
+#: global-menu.php:69
+msgid "Global Booking Settings"
+msgstr ""
+
+#: global-menu.php:70
+msgid "Labels & Messages"
+msgstr ""
+
+#: global-menu.php:72
+msgid "Addon Settings"
+msgstr ""
+
+#: global-menu.php:73 includes/product-calendar-sync-settings.php:18
+msgid "Google Calendar Sync"
+msgstr ""
+
+#: global-menu.php:80
+msgid "Database Update"
+msgstr ""
+
+#: global-menu.php:91
+msgid ""
+"Change settings for the addons to the Booking & Appointment Plugin for "
+"WooCommerce."
+msgstr ""
+
+#: global-menu.php:97
+msgid ""
+"No addons are currently active for the Booking & Appointment Plugin for "
+"WooCommerce."
+msgstr ""
+
+#: global-menu.php:108 global-menu.php:119 global-menu.php:130
+msgid "Save Settings"
+msgstr ""
+
+#: global-menu.php:144
+msgid "Labels on product page"
+msgstr ""
+
+#: global-menu.php:151 global-menu.php:221 global-menu.php:264
+msgid "Check-in Date:"
+msgstr ""
+
+#: global-menu.php:155
+msgid "Check-in Date label on product page."
+msgstr ""
+
+#: global-menu.php:160 global-menu.php:230 global-menu.php:273
+msgid "Check-out Date:"
+msgstr ""
+
+#: global-menu.php:164
+msgid "Check-out Date label on product page."
+msgstr ""
+
+#: global-menu.php:169
+msgid "Select Calendar Icon:"
+msgstr ""
+
+#: global-menu.php:173
+msgid "Replace or Remove Calendar Icon label on product page."
+msgstr ""
+
+#: global-menu.php:178 global-menu.php:239 global-menu.php:282
+msgid "Booking Time:"
+msgstr ""
+
+#: global-menu.php:182
+msgid "Booking Time label on product page."
+msgstr ""
+
+#: global-menu.php:187
+msgid "Choose Time Text:"
+msgstr ""
+
+#: global-menu.php:191
+msgid ""
+"Text for the 1st option of Time Slot dropdown field that instructs the "
+"customer to select a time slot."
+msgstr ""
+
+#: global-menu.php:196
+msgid "Fixed Block Drop Down Label:"
+msgstr ""
+
+#: global-menu.php:200
+msgid "Fixed Block Drop Down label on product page."
+msgstr ""
+
+#: global-menu.php:205
+msgid "Label for Booking Price:"
+msgstr ""
+
+#: global-menu.php:209
+msgid "Label for Booking Price on product page."
+msgstr ""
+
+#: global-menu.php:214
+msgid "Labels on order received page and in email notification"
+msgstr ""
+
+#: global-menu.php:225
+msgid "Check-in Date label on the order received page and email notification."
+msgstr ""
+
+#: global-menu.php:234
+msgid "Check-out Date label on the order received page and email notification."
+msgstr ""
+
+#: global-menu.php:243
+msgid "Booking Time label on the order received page and email notification."
+msgstr ""
+
+#: global-menu.php:248
+msgid "ICS File Name:"
+msgstr ""
+
+#: global-menu.php:252
+msgid "ICS File name."
+msgstr ""
+
+#: global-menu.php:257
+msgid "Labels on Cart & Check-out Page"
+msgstr ""
+
+#: global-menu.php:268
+msgid "Check-in Date label on the cart and checkout page."
+msgstr ""
+
+#: global-menu.php:277
+msgid "Check-out Date label on the cart and checkout page."
+msgstr ""
+
+#: global-menu.php:286
+msgid "Booking Time label on the cart and checkout page."
+msgstr ""
+
+#: global-menu.php:291
+msgid "Text for Add to Cart button"
+msgstr ""
+
+#: global-menu.php:298
+msgid "Text for Add to Cart Button:"
+msgstr ""
+
+#: global-menu.php:302
+msgid "Change text for Add to Cart button on WooCommerce product page."
+msgstr ""
+
+#: global-menu.php:307
+msgid "Text for Check Availability Button:"
+msgstr ""
+
+#: global-menu.php:311
+msgid ""
+"Change text for Check Availability button on WooCommerce product page when "
+"product requires confirmation."
+msgstr ""
+
+#: global-menu.php:319
+msgid "Booking Availability Messages on Product Page"
+msgstr ""
+
+#: global-menu.php:326
+msgid "Total stock display message: "
+msgstr ""
+
+#: global-menu.php:330
+msgid ""
+"The total stock message to be displayed when the product page loads."
+"<br><i>Note: You can use AVAILABLE_SPOTS placeholder which will be replaced "
+"by it's real value.</i>"
+msgstr ""
+
+#: global-menu.php:335
+msgid "Availability display message for a date: "
+msgstr ""
+
+#: global-menu.php:339
+msgid ""
+"The availability message displayed when a date is selected in the calendar."
+"<br><i>Note: You can use AVAILABLE_SPOTS, DATE placeholders which will be "
+"replaced by their real values.</i>"
+msgstr ""
+
+#: global-menu.php:344
+msgid "Availability display message for a time slot: "
+msgstr ""
+
+#: global-menu.php:348
+msgid ""
+"The availability message displayed when a time slot is selected for a date."
+"<br><i>Note: You can use AVAILABLE_SPOTS, DATE, TIME placeholders which will "
+"be replaced by their real values.</i>"
+msgstr ""
+
+#: global-menu.php:353
+msgid ""
+"Availability display message for a date when attribute level lockout is set: "
+msgstr ""
+
+#: global-menu.php:357
+msgid ""
+"The availability message displayed when a date is selected and attribute "
+"level lockout is set for the product.<br><i>Note: You can use "
+"AVAILABLE_SPOTS, DATE, ATTRIBUTE_NAME placeholders which will be replaced by "
+"their real values.</i>"
+msgstr ""
+
+#: global-menu.php:362
+msgid ""
+"Availability display message for a time slot when attribute level lockout is "
+"set: "
+msgstr ""
+
+#: global-menu.php:366
+msgid ""
+"The availability message displayed when a time slot is selected for a date "
+"and attribute level lockout is set for the product.<br><i>Note: You can use "
+"AVAILABLE_SPOTS, DATE, TIME, ATTRIBUTE_NAME placeholders which will be "
+"replaced by their real values.</i>"
+msgstr ""
+
+#: global-menu.php:371
+msgid "Message to be displayed when the time slot is blocked in real time: "
+msgstr ""
+
+#: global-menu.php:375
+msgid ""
+"The message to be displayed when any time slot for the date selected by the "
+"user is fully blocked in real time bookings."
+msgstr ""
+
+#: global-menu.php:380
+msgid ""
+"Booking Availability Error Messages on the Product, Cart & Checkout Pages"
+msgstr ""
+
+#: global-menu.php:387
+msgid "Limited availability error message for a date: "
+msgstr ""
+
+#: global-menu.php:391
+msgid ""
+"The error message displayed for a date booking when user tries to book more "
+"than the available quantity.<br><i>Note: You can use PRODUCT_NAME, "
+"AVAILABLE_SPOTS, DATE placeholders which will be replaced by their real "
+"values.</i>"
+msgstr ""
+
+#: global-menu.php:396
+msgid "No availability error message for a date: "
+msgstr ""
+
+#: global-menu.php:400
+msgid ""
+"The error message displayed for a date booking and bookings are no longer "
+"available for the selected date.<br><i>Note: You can use PRODUCT_NAME, DATE "
+"placeholders which will be replaced by their real values.</i>"
+msgstr ""
+
+#: global-menu.php:405
+msgid "Limited availability error message for a time slot: "
+msgstr ""
+
+#: global-menu.php:409
+msgid ""
+"The error message displayed for a date and time booking when user tries to "
+"book more than the available quantity.<br><i>Note: You can use PRODUCT_NAME, "
+"AVAILABLE_SPOTS, DATE, TIME placeholders which will be replaced by their "
+"real values.</i>"
+msgstr ""
+
+#: global-menu.php:414
+msgid "No availability error message for a time slot: "
+msgstr ""
+
+#: global-menu.php:418
+msgid ""
+"The error message displayed for a date and time booking and bookings are no "
+"longer available for the selected time slot.<br><i>Note: You can use "
+"PRODUCT_NAME, DATE, TIME placeholders which will be replaced by their real "
+"values.</i>"
+msgstr ""
+
+#: global-menu.php:423
+msgid ""
+"Limited Availability Error Message for a date when attribute level lockout "
+"is set:"
+msgstr ""
+
+#: global-menu.php:427
+msgid ""
+"The error message displayed for a date booking when user tries to book more "
+"than the available quantity setup at the attribute level.<br><i>Note: You "
+"can use PRODUCT_NAME, AVAILABLE_SPOTS, ATTRIBUTE_NAME, DATE placeholders "
+"which will be replaced by their real values.</i>"
+msgstr ""
+
+#: global-menu.php:432
+msgid ""
+"Limited Availability Error Message for a time slot when attribute level "
+"lockout is set:"
+msgstr ""
+
+#: global-menu.php:436
+msgid ""
+"The error message displayed for a date and time booking when user tries to "
+"book more than the available quantity setup at the attribute level."
+"<br><i>Note: You can use PRODUCT_NAME, AVAILABLE_SPOTS, ATTRIBUTE_NAME, "
+"DATE, TIME placeholders which will be replaced by their real values.</i>"
+msgstr ""
+
+#: global-menu.php:584 global-menu.php:786
+msgid "General Settings"
+msgstr ""
+
+#: global-menu.php:591
+msgid "Language:"
+msgstr ""
+
+#: global-menu.php:595
+msgid ""
+"Choose the language for your booking calendar. <strong>Note:</strong> This "
+"setting <strong>will be deprecated</strong> in the future releases of "
+"Booking & Appointment plugin for WooCommerce. We recommend using "
+"<strong>WordPress->Settings->General->Site Language</strong> option in "
+"future."
+msgstr ""
+
+#: global-menu.php:600
+msgid "Date Format:"
+msgstr ""
+
+#: global-menu.php:604
+msgid ""
+"The format in which the booking date appears to the customers throughout the "
+"order cycle."
+msgstr ""
+
+#: global-menu.php:609
+msgid "Time Format:"
+msgstr ""
+
+#: global-menu.php:613
+msgid ""
+"The format in which booking time appears to the customers throughout the "
+"order cycle."
+msgstr ""
+
+#: global-menu.php:618
+msgid "Number of months to show in calendar:"
+msgstr ""
+
+#: global-menu.php:622
+msgid ""
+"The number of months to be shown on the calendar. If the booking dates spans "
+"across 2 months, then dates of 2 months can be shown simultaneously without "
+"the need to press Next or Back buttons."
+msgstr ""
+
+#: global-menu.php:627
+msgid "First Day on Calendar:"
+msgstr ""
+
+#: global-menu.php:631
+msgid "Choose the first day to display on the booking calendar."
+msgstr ""
+
+#: global-menu.php:638
+msgid "Show \"Add to Calendar\" button on Order Received page:"
+msgstr ""
+
+#: global-menu.php:642
+msgid ""
+"Shows the 'Add to Calendar' button on the Order Received page. On clicking "
+"the button, an ICS file will be downloaded. <b>Note:</b> This setting "
+"<b>will be deprecated</b> in a future release of the plugin. Please use "
+"<b>Show Add to Calendar button on Order received page</b> setting found <a "
+"href=\""
+msgstr ""
+
+#: global-menu.php:647
+msgid "Send bookings as attachments (ICS files) in email notifications:"
+msgstr ""
+
+#: global-menu.php:651
+msgid ""
+"Allow customers to export bookings as ICS file after placing an order. Sends "
+"ICS files as attachments in email notifications."
+msgstr ""
+
+#: global-menu.php:656
+msgid "Preview Theme & Language:"
+msgstr ""
+
+#: global-menu.php:660
+msgid ""
+"Select the theme for the calendar. You can choose a theme which blends with "
+"the design of your website."
+msgstr ""
+
+#: global-menu.php:665
+msgid "Select Holidays / Exclude Days / Black-out days:"
+msgstr ""
+
+#: global-menu.php:669
+msgid ""
+"Select dates for which the booking will be completely disabled for all the "
+"products in your WooCommerce store. <br> Please click on the date in "
+"calendar to add or delete the date from the holiday list."
+msgstr ""
+
+#: global-menu.php:674
+msgid "Global Time Slot Booking:"
+msgstr ""
+
+#: global-menu.php:678
+msgid ""
+"Please select this checkbox if you want ALL time slots to be unavailable for "
+"booking in all products once the lockout for that time slot is reached for "
+"any product."
+msgstr ""
+
+#: global-menu.php:683
+msgid "Enable Rounding of Prices:"
+msgstr ""
+
+#: global-menu.php:687
+msgid ""
+"Rounds the Booking Price to the nearest Integer value. <strong>Note:</"
+"strong> This setting will be deprecated in the future releases of Booking & "
+"Appointment plugin for WooCommerce. We recommend using <strong>WooCommerce-"
+">Settings->General->Number of Decimals</strong> option in future."
+msgstr ""
+
+#: global-menu.php:692
+msgid "Hide Variation Price on Product Page:"
+msgstr ""
+
+#: global-menu.php:696
+msgid ""
+"Select whether the WooCommerce Variation Price should be hidden on the front "
+"end Product Page."
+msgstr ""
+
+#: global-menu.php:701
+msgid "Hide Booking Price on Product Page:"
+msgstr ""
+
+#: global-menu.php:705
+msgid ""
+"\n"
+"Select this if you want to hide the Booking Price on Product page until the "
+"time slot is selected for the bookable product with time slot. The prices "
+"will be shown only after booking date and timeslot is selected by the "
+"customer."
+msgstr ""
+
+#: global-menu.php:711
+msgid "Always display the Add to Cart and Quantity buttons:"
+msgstr ""
+
+#: global-menu.php:715
+msgid ""
+"Select whether the Add to Cart and Quantity buttons should always be "
+"displayed on the front end Product page."
+msgstr ""
+
+#: global-menu.php:720
+msgid "Duplicate dates from first product in the cart to other products:"
+msgstr ""
+
+#: global-menu.php:724
+msgid ""
+"Please select this checkbox if you want to select the date globally for All "
+"products once selected for a product and added to cart."
+msgstr ""
+
+#: global-menu.php:729
+msgid "Enable Availability Display on the Product page:"
+msgstr ""
+
+#: global-menu.php:733
+msgid ""
+"Please select this checkbox if you want to display the number of bookings "
+"available for a given product on a given date and time."
+msgstr ""
+
+#: global-menu.php:738
+msgid "Charge WooCommerce Product Addons options on a Per Day Basis:"
+msgstr ""
+
+#: global-menu.php:742
+msgid ""
+"Please select this checkbox if you want to multiply the option price of "
+"WooCommerce Product Addons with the number of booking days for Multiple Day "
+"Booking."
+msgstr ""
+
+#: global-menu.php:747
+msgid ""
+"Charge WooCommerce Gravity Forms Product Addons options on a Per Day Basis:"
+msgstr ""
+
+#: global-menu.php:751
+msgid ""
+"Please select this checkbox if you want to multiply the option price of "
+"WooCommerce Gravity Forms Product Addons with the number of booking days for "
+"Multiple Day Booking."
+msgstr ""
+
+#: global-menu.php:756
+msgid "Minimum Day Booking:"
+msgstr ""
+
+#: global-menu.php:760
+msgid "Enter minimum days of booking for Multiple days booking."
+msgstr ""
+
+#: global-menu.php:765
+msgid "Minimum number of days to choose:"
+msgstr ""
+
+#: global-menu.php:769
+msgid ""
+"The minimum number days you want to be booked for multiple day booking. For "
+"example, if you require minimum 2 days for booking, enter the value 2 in "
+"this field."
+msgstr ""
+
+#: global-menu.php:793
+msgid "Event Location"
+msgstr ""
+
+#: global-menu.php:797
+msgid ""
+"<br>Enter the text that will be used as location field in event of the "
+"Calendar. If left empty, website description is sent instead. <br><i>Note: "
+"You can use ADDRESS and CITY placeholders which will be replaced by their "
+"real values.</i>"
+msgstr ""
+
+#: global-menu.php:802
+msgid "Event summary (name)"
+msgstr ""
+
+#: global-menu.php:810 includes/class-import-bookings-table.php:82
+#: templates/emails/admin-gcal-import-event.php:20
+msgid "Event Description"
+msgstr ""
+
+#: global-menu.php:819
+msgid "Customer Add to Calendar button Settings"
+msgstr ""
+
+#: global-menu.php:826
+msgid "Show Add to Calendar button on Order received page"
+msgstr ""
+
+#: global-menu.php:830
+msgid ""
+"Show Add to Calendar button on the Order Received page for the customers."
+msgstr ""
+
+#: global-menu.php:835
+msgid "Show Add to Calendar button in the Customer notification email"
+msgstr ""
+
+#: global-menu.php:839
+msgid "Show Add to Calendar button in the Customer notification email."
+msgstr ""
+
+#: global-menu.php:844
+msgid "Show Add to Calendar button on My account"
+msgstr ""
+
+#: global-menu.php:848
+msgid "Show Add to Calendar button on My account page for the customers."
+msgstr ""
+
+#: global-menu.php:853
+msgid "Open Calendar in Same Window"
+msgstr ""
+
+#: global-menu.php:857
+msgid ""
+"As default, the Calendar is opened in a new tab or window. If you check this "
+"option, user will be redirected to the Calendar from the same page, without "
+"opening a new tab or window."
+msgstr ""
+
+#: global-menu.php:870
+msgid "Admin Calendar Sync Settings"
+msgstr ""
+
+#: global-menu.php:877
+msgid "Allow Tour Operators for Google Calendar API Integration"
+msgstr ""
+
+#: global-menu.php:881
+msgid ""
+"<br>Whether you let your tour operators to integrate with their own Google "
+"Calendar account using their profile page. Note: Each of them will need to "
+"set up their accounts following the steps as listed in Instructions below "
+"(will also be shown in their profile pages) and you will need to upload "
+"their key files yourself using FTP."
+msgstr ""
+
+#: global-menu.php:886
+msgid "Integration Mode"
+msgstr ""
+
+#: global-menu.php:890
+msgid ""
+"<br>Select method of integration.<br>\"Sync Automatically\" will add the "
+"booking events to the Google calendar, which is set in the \"Calendar to be "
+"used\" field, automatically when a customer places an order. A button will "
+"be added on the View Booking Calendar page based on the Settings.<br>\"Sync "
+"Manually\" will add an \"Add to Calendar\" button in emails received by "
+"admin on New customer order when \"Show Add to Calendar button in New Order "
+"email notification\" is enabled.<br>\"Disabled\" will disable the "
+"integration with Google Calendar."
+msgstr ""
+
+#: global-menu.php:895 global-menu.php:973
+msgid "Instructions"
+msgstr ""
+
+#: global-menu.php:904
+msgid "Key file name"
+msgstr ""
+
+#: global-menu.php:913
+msgid "Service account email address"
+msgstr ""
+
+#: global-menu.php:922
+msgid "Calendar to be used"
+msgstr ""
+
+#: global-menu.php:939
+msgid "Show Add to Calendar button on View Bookings page"
+msgstr ""
+
+#: global-menu.php:948
+msgid "Show Add to Calendar button in New Order email notification"
+msgstr ""
+
+#: global-menu.php:957
+msgid "Import Events"
+msgstr ""
+
+#: global-menu.php:964
+msgid "Run Automated Cron after X minutes"
+msgstr ""
+
+#: global-menu.php:981
+msgid "iCalendar/.ics Feed URL"
+msgstr ""
+
+#: global-menu.php:1067
+msgid ""
+"Happy with our Booking &amp; Appointment plugin? A review will help us "
+"immensely."
+msgstr ""
+
+#: global-menu.php:1068
+msgid ""
+"You can review this plugin at <a href=\"https://www.facebook.com/"
+"TycheSoftwares/reviews/\" target=\"_blank\" class=\"button\">Facebook</a>"
+msgstr ""
+
+#: ics.php:73 ics.php:95
+msgid "Add to Calendar"
+msgstr ""
+
+#: import-bookings.php:16
+msgid "Imported Bookings"
+msgstr ""
+
+#: import-bookings.php:118
+msgid "Back Dated Events cannot be imported. Please discard them."
+msgstr ""
+
+#: import-bookings.php:119 import-bookings.php:126 import-bookings.php:131
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: import-bookings.php:130
+msgid "Imported Events cannot be mapped to grouped products."
+msgstr ""
+
+#: lang.php:18
+msgid "Comments"
+msgstr ""
+
+#: lang.php:31 lang.php:37 lang.php:43
+msgid "Total "
+msgstr ""
+
+#: lang.php:32
+msgid "Partial Deposit "
+msgstr ""
+
+#: lang.php:33 lang.php:39
+msgid "Amount Remaining"
+msgstr ""
+
+#: lang.php:34
+msgid "Partial Payment"
+msgstr ""
+
+#: lang.php:38
+msgid "Total Deposit "
+msgstr ""
+
+#: lang.php:40
+msgid "Total Payment"
+msgstr ""
+
+#: lang.php:44
+msgid "Security Deposit "
+msgstr ""
+
+#: lang.php:45
+msgid "Product Price "
+msgstr ""
+
+#: lang.php:46
+msgid "Security Deposit"
+msgstr ""
+
+#: lang.php:49
+msgid ""
+"You cannot add products requiring Booking confirmation along with other "
+"products that do not need a confirmation. The existing products have been "
+"removed from your cart."
+msgstr ""
+
+#: license.php:14
+msgid "Plugin License Options"
+msgstr ""
+
+#: license.php:23
+msgid "License Key"
+msgstr ""
+
+#: license.php:27
+msgid "Enter your license key"
+msgstr ""
+
+#: license.php:37
+msgid "active"
+msgstr ""
+
+#: license.php:39
+msgid "Deactivate License"
+msgstr ""
+
+#: validation.php:60
+msgid "Product cannot be added to cart. Please select date to continue."
+msgstr ""
+
+#: validation.php:378
+msgid ""
+"This product cannot be added to cart. Please contact Store Manager for "
+"further information"
+msgstr ""
+
+#: variation-lockout.php:47
+msgid "Lockout"
+msgstr ""
+
+#: variation-lockout.php:48
+msgid "Enter the Booking Lockout value for this variation."
+msgstr ""
+
+#: variation-lockout.php:50
+msgid "Enter the Booking Lockout for this variation."
+msgstr ""
+
+#: view-bookings.php:35
+msgid "All Bookings"
+msgstr ""
+
+#: view-bookings.php:58
+msgid "View Booking Listing"
+msgstr ""
+
+#: view-bookings.php:58 view-bookings.php:108 woocommerce-booking.php:1283
+msgid "Calendar View"
+msgstr ""
+
+#: view-bookings.php:98 woocommerce-booking.php:1281
+msgid "Print"
+msgstr ""
+
+#: view-bookings.php:99 woocommerce-booking.php:1282
+msgid "CSV"
+msgstr ""
+
+#: widget-product-search.php:12
+msgid ""
+"Allows customers to search all the products based on checkin & checkout "
+"dates."
+msgstr ""
+
+#: widget-product-search.php:14
+msgid "Booking & Appointment Availability Search"
+msgstr ""
+
+#: widget-product-search.php:58
+msgid "Clear Filter"
+msgstr ""
+
+#: widget-product-search.php:365
+msgid "Title Label:"
+msgstr ""
+
+#: widget-product-search.php:368
+msgid "Start Date Label:"
+msgstr ""
+
+#: widget-product-search.php:370
+msgid "End Date Label:"
+msgstr ""
+
+#: widget-product-search.php:373
+msgid "Search By Category:"
+msgstr ""
+
+#: widget-product-search.php:383
+msgid "Category Title:"
+msgstr ""
+
+#: widget-product-search.php:386
+msgid "Search Button Label:"
+msgstr ""
+
+#: widget-product-search.php:388
+msgid "Clear Button Label:"
+msgstr ""
+
+#: widget-product-search.php:390
+msgid "Text (appears below Search button)"
+msgstr ""
+
+#: widget-product-search.php:394
+msgid "Hide the End date field:"
+msgstr ""
+
+#: woocommerce-booking.php:249
+msgid ""
+"Booking & Appointment Plugin for WooCommerce requires WooCommerce installed "
+"and activate."
+msgstr ""
+
+#: woocommerce-booking.php:303
+msgid "View Booking & Appointment Plugin Documentation"
+msgstr ""
+
+#: woocommerce-booking.php:303
+msgid "Docs"
+msgstr ""
+
+#: woocommerce-booking.php:304
+msgid "Visit Customer Support Forum"
+msgstr ""
+
+#: woocommerce-booking.php:304
+msgid "Support Forums"
+msgstr ""
+
+#: woocommerce-booking.php:725
+msgid ""
+"We need to run a database update to migrate your bookings and imported "
+"Google Calendar events into the new UI screens. Please click on the Update "
+"Now button to start the process."
+msgstr ""
+
+#: woocommerce-booking.php:731
+msgid "Update Now"
+msgstr ""
+
+#: woocommerce-booking.php:753
+msgid ""
+"The automatic database update for Booking & Appointment plugin for "
+"WooCommerce has failed. Please click on the Update button to manually update "
+"the database."
+msgstr ""
+
+#: woocommerce-booking.php:759
+msgid "Update"
+msgstr ""
+
+#: woocommerce-booking.php:1121
+msgid "The database update has failed. Request you to kindly contact "
+msgstr ""
+
+#: woocommerce-booking.php:1122
+msgid "support"
+msgstr ""
+
+#: woocommerce-booking.php:1123
+msgid " at Tyche Softwares."
+msgstr ""
+
+#: woocommerce-booking.php:1125
+msgid "The database update was successful."
+msgstr ""
+
+#: woocommerce-booking.php:1180
+msgid "General Booking settings have been saved."
+msgstr ""
+
+#: woocommerce-booking.php:1181
+msgid "Booking Availability settings have been saved."
+msgstr ""
+
+#: woocommerce-booking.php:1182
+msgid "Google Calendar Sync settings have been saved."
+msgstr ""
+
+#: woocommerce-booking.php:1183
+msgid "Use this for full day bookings or bookings spanning multiple nights."
+msgstr ""
+
+#: woocommerce-booking.php:1184
+msgid ""
+"Use this if you wish to take bookings for fixed time slots. For e.g. "
+"coaching classes, appointments etc."
+msgstr ""
+
+#: woocommerce-booking.php:1185
+msgid ""
+"Use this to take bookings like single day tours, event, appointments etc."
+msgstr ""
+
+#: woocommerce-booking.php:1186
+msgid ""
+"Use this for hotel bookings, rentals, etc. Checkout date is not included in "
+"the booking period."
+msgstr ""
+
+#: woocommerce-booking.php:1187
+msgid ""
+"Please enter the per night price in the Regular or Sale Price box in the "
+"Product meta box as needed. In case if you wish to charge special prices for "
+"a weekday, please enter them above."
+msgstr ""
+
+#: woocommerce-booking.php:1196
+msgid "Fixed Blocks have been saved."
+msgstr ""
+
+#: woocommerce-booking.php:1197
+msgid "Fixed Block have been deleted."
+msgstr ""
+
+#: woocommerce-booking.php:1198
+msgid "All Fixed Blocks have been deleted."
+msgstr ""
+
+#: woocommerce-booking.php:1199
+msgid "Are you sure you want to delete this fixed block?"
+msgstr ""
+
+#: woocommerce-booking.php:1200
+msgid "Are you sure you want to delete all the blocks?"
+msgstr ""
+
+#: woocommerce-booking.php:1202
+msgid "Price ranges have been saved."
+msgstr ""
+
+#: woocommerce-booking.php:1203
+msgid "Price Range have been deleted."
+msgstr ""
+
+#: woocommerce-booking.php:1204
+msgid "All Price Ranges have been deleted."
+msgstr ""
+
+#: woocommerce-booking.php:1205
+msgid "Are you sure you want to delete this price range?"
+msgstr ""
+
+#: woocommerce-booking.php:1206
+msgid "Are you sure you want to delete all the ranges?"
+msgstr ""
+
+#: woocommerce-booking.php:1736
+msgid "Add New Booking"
+msgstr ""
+
+#: woocommerce-booking.php:1737 woocommerce-booking.php:1839
+msgid "Edit"
+msgstr ""
+
+#: woocommerce-booking.php:1739 emails/class-bkap-email-new-booking.php:16
+msgid "New Booking"
+msgstr ""
+
+#: woocommerce-booking.php:1740 woocommerce-booking.php:1741
+msgid "View Booking"
+msgstr ""
+
+#: woocommerce-booking.php:1742
+msgid "Search Bookings"
+msgstr ""
+
+#: woocommerce-booking.php:1743
+msgid "No Bookings found"
+msgstr ""
+
+#: woocommerce-booking.php:1744
+msgid "No Bookings found in trash"
+msgstr ""
+
+#: woocommerce-booking.php:1745
+msgid "Parent Bookings"
+msgstr ""
+
+#: woocommerce-booking.php:1746
+msgctxt "Admin menu name"
+msgid "Booking"
+msgstr ""
+
+#: woocommerce-booking.php:1749 woocommerce-booking.php:1851
+msgid "This is where bookings are stored."
+msgstr ""
+
+#: woocommerce-booking.php:1793
+msgctxt "woocommerce-booking"
+msgid "Paid &amp; Confirmed"
+msgstr ""
+
+#: woocommerce-booking.php:1798
+#, php-format
+msgid "Paid &amp; Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Paid &amp; Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce-booking.php:1801
+msgctxt "woocommerce-booking"
+msgid "Confirmed"
+msgstr ""
+
+#: woocommerce-booking.php:1806
+#, php-format
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce-booking.php:1810
+msgctxt "woocommerce-booking"
+msgid "Pending Confirmation"
+msgstr ""
+
+#: woocommerce-booking.php:1815
+#, php-format
+msgid "Pending Confirmation <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Confirmation <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce-booking.php:1819
+msgctxt "woocommerce-booking"
+msgid "Cancelled"
+msgstr ""
+
+#: woocommerce-booking.php:1824
+#, php-format
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce-booking.php:1833 woocommerce-booking.php:1842
+msgid "Import Bookings"
+msgstr ""
+
+#: woocommerce-booking.php:1835 woocommerce-booking.php:1836
+msgid "Google Event"
+msgstr ""
+
+#: woocommerce-booking.php:1837
+msgid "Add Google Event"
+msgstr ""
+
+#: woocommerce-booking.php:1838
+msgid "Add New Google Event"
+msgstr ""
+
+#: woocommerce-booking.php:1840
+msgid "Edit Google Event"
+msgstr ""
+
+#: woocommerce-booking.php:1841
+msgid "New Google Event"
+msgstr ""
+
+#: woocommerce-booking.php:1843
+msgid "View Google Event"
+msgstr ""
+
+#: woocommerce-booking.php:1844
+msgid "Search Google Event"
+msgstr ""
+
+#: woocommerce-booking.php:1845
+msgid "No Google Event found"
+msgstr ""
+
+#: woocommerce-booking.php:1846
+msgid "No Google Event found in trash"
+msgstr ""
+
+#: woocommerce-booking.php:1847
+msgid "Parent Google Events"
+msgstr ""
+
+#: woocommerce-booking.php:1848
+msgctxt "Admin menu name"
+msgid "Google Event"
+msgstr ""
+
+#: woocommerce-booking.php:1849
+msgid "Import Booking"
+msgstr ""
+
+#: woocommerce-booking.php:1874
+msgctxt "woocommerce-booking"
+msgid "Un-mapped"
+msgstr ""
+
+#: woocommerce-booking.php:1879
+#, php-format
+msgid "Un-mapped <span class=\"count\">(%s)</span>"
+msgid_plural "Un-mapped <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce-booking.php:1884
+msgctxt "woocommerce-booking"
+msgid "Mapped"
+msgstr ""
+
+#: woocommerce-booking.php:1889
+#, php-format
+msgid "Mapped <span class=\"count\">(%s)</span>"
+msgid_plural "Mapped <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce-booking.php:1894
+msgctxt "woocommerce-booking"
+msgid "Deleted"
+msgstr ""
+
+#: woocommerce-booking.php:1899
+#, php-format
+msgid "Deleted <span class=\"count\">(%s)</span>"
+msgid_plural "Mapped <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce-booking.php:2189
+msgid "Quantity being set is not available for the desired date."
+msgstr ""
+
+#: woocommerce-booking.php:2193
+msgid "The Booking details are incorrect. Please fill them up correctly."
+msgstr ""
+
+#: emails/class-bkap-email-booking-cancelled.php:17
+#: emails/class-bkap-email-booking-cancelled.php:20
+msgid "Booking Cancelled"
+msgstr ""
+
+#: emails/class-bkap-email-booking-cancelled.php:18
+msgid ""
+"Booking cancelled emails are sent when the status of a booking goes to "
+"cancelled."
+msgstr ""
+
+#: emails/class-bkap-email-booking-cancelled.php:21
+msgid "[{blogname}] Your booking of \"{product_title}\" has been cancelled"
+msgstr ""
+
+#: emails/class-bkap-email-booking-cancelled.php:72
+#: emails/class-bkap-email-booking-confirmed.php:65
+#: emails/class-bkap-email-booking-rescheduled-admin.php:65
+#: emails/class-bkap-email-new-booking.php:106
+#: templates/meta-boxes/class-bkap-customer-meta-box.php:112
+#: templates/meta-boxes/class-bkap-details-meta-box.php:130
+msgid "N/A"
+msgstr ""
+
+#: emails/class-bkap-email-booking-cancelled.php:111
+#: emails/class-bkap-email-booking-confirmed.php:124
+#: emails/class-bkap-email-booking-rescheduled-admin.php:97
+#: emails/class-bkap-email-imported-events.php:179
+#: emails/class-bkap-email-new-booking.php:160
+msgid "Enable/Disable"
+msgstr ""
+
+#: emails/class-bkap-email-booking-cancelled.php:113
+#: emails/class-bkap-email-booking-confirmed.php:126
+#: emails/class-bkap-email-booking-rescheduled-admin.php:99
+#: emails/class-bkap-email-imported-events.php:181
+#: emails/class-bkap-email-new-booking.php:162
+msgid "Enable this email notification"
+msgstr ""
+
+#: emails/class-bkap-email-booking-cancelled.php:117
+#: emails/class-bkap-email-booking-confirmed.php:130
+#: emails/class-bkap-email-booking-rescheduled-admin.php:109
+#: emails/class-bkap-email-imported-events.php:191
+#: emails/class-bkap-email-new-booking.php:172
+msgid "Subject"
+msgstr ""
+
+#: emails/class-bkap-email-booking-cancelled.php:119
+#: emails/class-bkap-email-booking-confirmed.php:132
+#: emails/class-bkap-email-booking-rescheduled-admin.php:111
+#: emails/class-bkap-email-imported-events.php:193
+#: emails/class-bkap-email-new-booking.php:174
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+
+#: emails/class-bkap-email-booking-cancelled.php:124
+#: emails/class-bkap-email-booking-confirmed.php:137
+#: emails/class-bkap-email-booking-rescheduled-admin.php:116
+#: emails/class-bkap-email-imported-events.php:198
+#: emails/class-bkap-email-new-booking.php:179
+msgid "Email Heading"
+msgstr ""
+
+#: emails/class-bkap-email-booking-cancelled.php:126
+#: emails/class-bkap-email-booking-confirmed.php:139
+#: emails/class-bkap-email-booking-rescheduled-admin.php:118
+#: emails/class-bkap-email-imported-events.php:200
+#: emails/class-bkap-email-new-booking.php:181
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: emails/class-bkap-email-booking-cancelled.php:131
+#: emails/class-bkap-email-booking-confirmed.php:144
+#: emails/class-bkap-email-booking-rescheduled-admin.php:123
+#: emails/class-bkap-email-imported-events.php:205
+#: emails/class-bkap-email-new-booking.php:186
+msgid "Email type"
+msgstr ""
+
+#: emails/class-bkap-email-booking-cancelled.php:133
+#: emails/class-bkap-email-booking-confirmed.php:146
+#: emails/class-bkap-email-booking-rescheduled-admin.php:125
+#: emails/class-bkap-email-imported-events.php:207
+#: emails/class-bkap-email-new-booking.php:188
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: emails/class-bkap-email-booking-cancelled.php:137
+#: emails/class-bkap-email-booking-confirmed.php:150
+#: emails/class-bkap-email-booking-rescheduled-admin.php:129
+#: emails/class-bkap-email-imported-events.php:211
+#: emails/class-bkap-email-new-booking.php:192
+msgid "Plain text"
+msgstr ""
+
+#: emails/class-bkap-email-booking-cancelled.php:138
+#: emails/class-bkap-email-booking-confirmed.php:151
+#: emails/class-bkap-email-booking-rescheduled-admin.php:130
+#: emails/class-bkap-email-imported-events.php:212
+#: emails/class-bkap-email-new-booking.php:193
+msgid "HTML"
+msgstr ""
+
+#: emails/class-bkap-email-booking-cancelled.php:139
+#: emails/class-bkap-email-booking-confirmed.php:152
+#: emails/class-bkap-email-booking-rescheduled-admin.php:131
+#: emails/class-bkap-email-imported-events.php:213
+#: emails/class-bkap-email-new-booking.php:194
+msgid "Multipart"
+msgstr ""
+
+#: emails/class-bkap-email-booking-confirmed.php:17
+#: emails/class-bkap-email-booking-confirmed.php:20
+msgid "Booking Confirmed"
+msgstr ""
+
+#: emails/class-bkap-email-booking-confirmed.php:18
+msgid ""
+"Booking confirmed emails are sent when the status of a booking goes to "
+"confirmed."
+msgstr ""
+
+#: emails/class-bkap-email-booking-confirmed.php:21
+msgid ""
+"[{blogname}] Your booking of \"{product_title}\" has been confirmed (Order "
+"{order_number}) - {order_date}"
+msgstr ""
+
+#: emails/class-bkap-email-booking-rescheduled-admin.php:16
+#: emails/class-bkap-email-booking-rescheduled-admin.php:19
+msgid "Customer Booking Rescheduled"
+msgstr ""
+
+#: emails/class-bkap-email-booking-rescheduled-admin.php:17
+msgid ""
+"Booking Rescheduled emails are sent to the admin when a customer reschedules "
+"a Booking."
+msgstr ""
+
+#: emails/class-bkap-email-booking-rescheduled-admin.php:21
+msgid ""
+"[{blogname}]Bookings have been modified for {product_title} (Order "
+"{order_number}) - {order_date}"
+msgstr ""
+
+#: emails/class-bkap-email-booking-rescheduled-admin.php:103
+#: emails/class-bkap-email-imported-events.php:185
+#: emails/class-bkap-email-new-booking.php:166
+msgid "Recipient"
+msgstr ""
+
+#: emails/class-bkap-email-booking-rescheduled-admin.php:105
+#: emails/class-bkap-email-imported-events.php:187
+#: emails/class-bkap-email-new-booking.php:168
+#, php-format
+msgid "Enter recipients (comma separated) for this email. Defaults to %s"
+msgstr ""
+
+#: emails/class-bkap-email-imported-events.php:16
+msgid "New GCal Event Import"
+msgstr ""
+
+#: emails/class-bkap-email-imported-events.php:17
+msgid ""
+"New GCal Event Import. This email is received when an event is imported from "
+"the .ics/iCal feed."
+msgstr ""
+
+#: emails/class-bkap-email-imported-events.php:19
+msgid "New GCal Event Imported"
+msgstr ""
+
+#: emails/class-bkap-email-imported-events.php:20
+msgid "[{blogname}] New event imported from Google Calendar"
+msgstr ""
+
+#: emails/class-bkap-email-new-booking.php:17
+msgid ""
+"New booking emails are sent to the admin for a new booking. This email is "
+"received when a Pending confirmation booking is created."
+msgstr ""
+
+#: emails/class-bkap-email-new-booking.php:19
+msgid "New booking"
+msgstr ""
+
+#: emails/class-bkap-email-new-booking.php:20
+msgid "Confirm booking"
+msgstr ""
+
+#: emails/class-bkap-email-new-booking.php:21
+msgid ""
+"[{blogname}] New booking for {product_title} (Order {order_number}) - "
+"{order_date}"
+msgstr ""
+
+#: emails/class-bkap-email-new-booking.php:22
+msgid ""
+"[{blogname}] A new booking for {product_title} (Order {order_number}) is "
+"awaiting your approval - {order_date}"
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:76
+#: includes/product-calendar-sync-settings.php:170
+msgid "Export Bookings to Google Calendar"
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:84
+msgid ""
+"Product level Google Sync is more beneficial & fully automated then the "
+"Global Level Google Sync. Click <a href=\""
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:121
+#: includes/product-calendar-sync-settings.php:190
+msgid "Sync Automatically"
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:122
+msgid "Sync Manually"
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:123
+#: includes/product-calendar-sync-settings.php:191
+msgid "Disabled"
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:257
+#: includes/bkap-calendar-sync-settings.php:423
+msgid "Click to toggle instructions"
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:257
+#: includes/bkap-calendar-sync-settings.php:423
+msgid "Show me how"
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:260
+msgid "Google Calendar API requires php V5.3+ and some php extensions."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:261
+#, php-format
+msgid ""
+"Go to Google APIs console by clicking %s. Login to your Google account if "
+"you are not already logged in."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:262
+msgid ""
+"Create a new project. Click on 'Create Project' button. Name the project "
+"\"Bookings\" (or use your chosen name instead)."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:263
+msgid "Click on API Manager from left side pane."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:264
+msgid ""
+"Click \"Calendar API\" under Google Apps APIs and click on Enable button."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:265
+msgid ""
+"Go to \"Credentials\" menu in the left side pane and click on \"Create "
+"Credentials\" dropdown."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:266
+msgid ""
+"Click on \"OAuth client ID\" option. Then click on Configure consent screen."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:267
+msgid ""
+"Enter a Product Name, e.g. Bookings and Appointments, inside the opening pop-"
+"up. Click Save."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:268
+msgid ""
+"Select \"Web Application\" option, enter the Web client name and create the "
+"client ID."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:269
+msgid "Click on New Credentials dropdown and select \"Service account key\"."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:270
+msgid ""
+"Click \"Service account\" and select \"New service account\" and enter the "
+"name. Now select key type as \"P12\" and create the service account."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:271
+msgid "A file with extension .p12 will be downloaded."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:272
+#, php-format
+msgid ""
+"Using your FTP client program, copy this key file to folder: %s . This file "
+"is required as you will grant access to your Google Calendar account even if "
+"you are not online. So this file serves as a proof of your consent to access "
+"to your Google calendar account. Note: This file cannot be uploaded in any "
+"other way. If you do not have FTP access, ask the website admin to do it for "
+"you."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:273
+msgid ""
+"Enter the name of the key file to \"Key file name\" field of Booking "
+"Settings. Exclude the extention .p12."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:274
+msgid ""
+"Copy \"Email address\" setting from Manage service account of Google apis "
+"console and paste it to \"Service account email address\" setting of Booking."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:275
+#: includes/bkap-calendar-sync-settings.php:427
+#, php-format
+msgid "Open your Google Calendar by clicking this link: %s"
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:276
+msgid ""
+"Create a new Calendar by selecting \"my Calendars > Create new calendar\" on "
+"left side pane. <b>Try NOT to use your primary calendar.</b>"
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:277
+msgid ""
+"Give a name to the new calendar, e.g. Bookings calendar. <b>Check that "
+"Calendar Time Zone setting matches with time zone setting of your WordPress "
+"website.</b> Otherwise there will be a time shift."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:278
+msgid ""
+"Paste already copied \"Email address\" setting from Manage service account "
+"of Google apis console to \"Person\" field under \"Share with specific person"
+"\"."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:279
+msgid ""
+"Set \"Permission Settings\" of this person as \"Make changes to events\"."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:280
+msgid "Click \"Add Person\"."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:281
+msgid "Click \"Create Calendar\"."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:282
+msgid "Select the created calendar and click \"Calendar settings\"."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:283
+msgid "Copy \"Calendar ID\" value on Calendar Address row."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:284
+msgid "Paste this value to \"Calendar to be used\" field of Booking Settings."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:285
+msgid ""
+"Select the desired Integration mode: Sync Automatically or Sync Manually."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:286
+msgid "Click \"Save Settings\" on Booking settings."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:287
+msgid ""
+"After these stages, you have set up Google Calendar API. To test the "
+"connection, click the \"Test Connection\" link."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:288
+msgid ""
+"If you get a success message, you should see a test event inserted to the "
+"Google Calendar and you are ready to go. If you get an error message, double "
+"check your settings."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:380
+#: includes/product-calendar-sync-settings.php:259
+msgid "Test Connection"
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:428
+msgid "Select the calendar to be imported and click \"Calendar settings\"."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:429
+msgid ""
+"Click on \"ICAL\" button in Calendar Address option. Please note that you "
+"need to select the Private Calendar Address \"ICAL\" if your calendar is not "
+"public."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:430
+msgid "Copy the basic.ics file URL."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:431
+msgid ""
+"Paste this link in the text box under Google Calendar Sync tab->Import "
+"Events->iCalendar/.ics Feed URL."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:432
+msgid "Save the URL."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:433
+msgid ""
+"Click on \"Import Events\" button to import the events from the calendar."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:434
+msgid ""
+"You can import multiple calendars by using ICS feeds. Add them using the Add "
+"New ICS Feed URL button."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:579
+msgid ""
+"Leaving the Event Summary (name) blank will result in a blank event summary "
+"in your Google Calendar event, thereby making it difficult for you to "
+"identify your booking in the Calendar."
+msgstr ""
+
+#: includes/bkap-calendar-sync-settings.php:590
+msgid ""
+"Leaving the Event Description blank will result in a blank event description "
+"in your Google Calendar event, thereby making it difficult for you to "
+"identify your booking in the Calendar."
+msgstr ""
+
+#: includes/class-bkap-booking.php:176
+#, php-format
+msgid "Booking &ndash; %s"
+msgstr ""
+
+#: includes/class-bkap-booking.php:176 includes/class-bkap-gcal-event.php:156
+msgctxt "Booking date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr ""
+
+#: includes/class-bkap-booking.php:267
+#, php-format
+msgid "Booking #%d status changed from \"%s\" to \"%s\""
+msgstr ""
+
+#: includes/class-bkap-booking.php:370
+msgid "Order date not available"
+msgstr ""
+
+#: includes/class-bkap-booking.php:393
+#, php-format
+msgctxt "Guest string with name from booking order in brackets"
+msgid "%s (Guest)"
+msgstr ""
+
+#: includes/class-bkap-gcal-event.php:156
+#, php-format
+msgid "Google Event &ndash; %s"
+msgstr ""
+
+#: includes/class-import-bookings-table.php:80
+msgid "Import Event ID"
+msgstr ""
+
+#: includes/class-import-bookings-table.php:83
+#: templates/meta-boxes/class-bkap-details-meta-box.php:57
+msgid "Booking Details"
+msgstr ""
+
+#: includes/class.gcal.php:32
+msgid "Session could not be started. This may indicate a theme issue."
+msgstr ""
+
+#: includes/class.gcal.php:87
+msgid ""
+"<b>Test is successful</b>. Please REFRESH your Google Calendar and check "
+"that test appointment has been saved."
+msgstr ""
+
+#: includes/class.gcal.php:103
+msgid "Do NOT use your primary Google calendar, but create a new one."
+msgstr ""
+
+#: includes/class.gcal.php:107
+msgid "The following error has been reported by Google Calendar API:<br />"
+msgstr ""
+
+#: includes/class.gcal.php:108
+msgid "<b>Recommendation:</b> Please double check your settings."
+msgstr ""
+
+#: includes/class.gcal.php:305
+msgid "Google PHP API Client <b>requires at least PHP 5.3</b>"
+msgstr ""
+
+#: includes/class.gcal.php:310
+#, php-format
+msgid ""
+"Google PHP API Client <b>requires at least 32 MByte Server RAM</b>. Please "
+"check this link how to increase it: %s"
+msgstr ""
+
+#: includes/class.gcal.php:310
+msgid "Increasing_memory_allocated_to_PHP"
+msgstr ""
+
+#: includes/class.gcal.php:314
+msgid "Google PHP API Client <b>requires the CURL PHP extension</b>"
+msgstr ""
+
+#: includes/class.gcal.php:318
+msgid "Google PHP API Client <b>requires the JSON PHP extension</b>"
+msgstr ""
+
+#: includes/class.gcal.php:322
+msgid "Google PHP API Client <b>requires http_build_query()</b>"
+msgstr ""
+
+#: includes/class.gcal.php:327
+msgid "Your server installation meets requirements."
+msgstr ""
+
+#: includes/class.gcal.php:331
+msgid "<b>Key file does not exist</b>"
+msgstr ""
+
+#: includes/product-calendar-sync-settings.php:29
+msgid "Collapse Tabs"
+msgstr ""
+
+#: includes/product-calendar-sync-settings.php:172
+msgid ""
+"Google Calendar Sync cannot be set up for a Grouped Product. Please set up "
+"the sync settings for individual child products."
+msgstr ""
+
+#: includes/product-calendar-sync-settings.php:187
+msgid "Integration Mode:"
+msgstr ""
+
+#: includes/product-calendar-sync-settings.php:195
+msgid ""
+"Select method of integration. Sync Automatically will add the booking events "
+"to the Google calendar, which is set in the Calendar to be used field, "
+"automatically when a customer places an order.Disabled will disable the "
+"integration with Google Calendar.Note: Import of the events will work "
+"manually using .ics link."
+msgstr ""
+
+#: includes/product-calendar-sync-settings.php:207
+msgid "Key File Name:"
+msgstr ""
+
+#: includes/product-calendar-sync-settings.php:214
+msgid ""
+"Enter key file name here without extention, e.g. ab12345678901234567890-"
+"privatekey."
+msgstr ""
+
+#: includes/product-calendar-sync-settings.php:226
+msgid "Service Account Email Address:"
+msgstr ""
+
+#: includes/product-calendar-sync-settings.php:233
+msgid ""
+"Enter Service account email address here, e.g. 1234567890@developer."
+"gserviceaccount.com."
+msgstr ""
+
+#: includes/product-calendar-sync-settings.php:245
+msgid "Calendar to be used:"
+msgstr ""
+
+#: includes/product-calendar-sync-settings.php:252
+msgid ""
+"Enter the ID of the calendar in which your bookings will be saved, e.g. "
+"abcdefg1234567890@group.calendar.google.com."
+msgstr ""
+
+#: includes/product-calendar-sync-settings.php:274
+msgid "Enable Automated Mapping for Imported Events:"
+msgstr ""
+
+#: includes/product-calendar-sync-settings.php:283
+msgid ""
+"Enable if you wish to allow for imported events to be automatically mapped "
+"to the product."
+msgstr ""
+
+#: includes/product-calendar-sync-settings.php:301
+msgid "Default Variation to which Events should be mapped:"
+msgstr ""
+
+#: includes/product-calendar-sync-settings.php:327
+msgid ""
+"Select the default variation to which the product should be mapped. If left "
+"blanks, then the first variation shall be chosen."
+msgstr ""
+
+#: includes/product-calendar-sync-settings.php:339
+msgid ".ics/ICAL Feed URL"
+msgstr ""
+
+#: includes/product-calendar-sync-settings.php:380
+msgid ""
+"You can follow the instructions given in <a href ='https://www."
+"tychesoftwares.com/how-to-send-woocommerce-bookings-to-different-google-"
+"calendars-for-each-bookable-product/' target ='_blank'>this</a> post to "
+"setup the Google Calendar Sync settings for your product."
+msgstr ""
+
+#: includes/external/pointer-tutorials.php:134
+msgid "Tutorial"
+msgstr ""
+
+#: includes/external/pointer-tutorials.php:417
+msgid "Next &raquo;"
+msgstr ""
+
+#: includes/external/pointer-tutorials.php:429
+#: includes/external/pointer-tutorials.php:448
+msgid "Dismiss"
+msgstr ""
+
+#: includes/external/pointer-tutorials.php:430
+#: includes/external/pointer-tutorials.php:449
+#, php-format
+msgid "Dismiss %s"
+msgstr ""
+
+#: includes/external/pointer-tutorials.php:436
+msgid "&laquo; Previous"
+msgstr ""
+
+#: includes/external/pointer-tutorials.php:488
+#, php-format
+msgid "%s: Step %d of %d"
+msgstr ""
+
+#: includes/gcal/io/Google_CurlIO.php:119
+msgid ""
+"Either 1) Connection error to Google server. You may neglect this message if "
+"it is happening sporadically, or 2) SSL certificate problem, verify that the "
+"CA cert is OK."
+msgstr ""
+
+#: templates/bkap-edit-booking-modal.php:108
+msgid "Confirm Bookings"
+msgstr ""
+
+#: templates/bookings/bkap-bookings-date.php:120
+msgid "Select a date to view available bookings."
+msgstr ""
+
+#: templates/bookings/bkap-bookings-date.php:235
+msgid "Choose a date above to see available times."
+msgstr ""
+
+#: templates/bookings/bkap-bookings-date.php:262
+msgid ""
+"The product is currently unavailable for booking. Please try again later."
+msgstr ""
+
+#: templates/emails/admin-gcal-import-event.php:7
+#: templates/emails/plain/admin-gcal-import-event.php:7
+msgid "A new event has been imported. The details of the event are as follows:"
+msgstr ""
+
+#: templates/emails/admin-gcal-import-event.php:25
+msgid "Event Start Date"
+msgstr ""
+
+#: templates/emails/admin-gcal-import-event.php:32
+msgid "Event End Date"
+msgstr ""
+
+#: templates/emails/admin-gcal-import-event.php:40
+msgid "Event Time"
+msgstr ""
+
+#: templates/emails/admin-gcal-import-event.php:49
+#: templates/emails/plain/admin-gcal-import-event.php:28
+msgid ""
+"This event has been imported and needs to be mapped. Please check it and map "
+"the event to the corresponding product to ensure it's added to the list of "
+"bookings on the website."
+msgstr ""
+
+#: templates/emails/admin-gcal-import-event.php:52
+#: templates/emails/admin-gcal-import-event.php:54
+#, php-format
+msgid "You can view and edit this event in the dashboard here: %s"
+msgstr ""
+
+#: templates/emails/admin-new-booking.php:7
+#: templates/emails/plain/admin-new-booking.php:10
+#, php-format
+msgid ""
+"A booking has been made by %s and is awaiting your approval. The details of "
+"this booking are as follows:"
+msgstr ""
+
+#: templates/emails/admin-new-booking.php:9
+#: templates/emails/plain/admin-new-booking.php:12
+#, php-format
+msgid ""
+"A new booking has been made by %s. The details of this booking are as "
+"follows:"
+msgstr ""
+
+#: templates/emails/admin-new-booking.php:54
+#: templates/emails/plain/admin-new-booking.php:37
+msgid ""
+"This booking is awaiting your approval. Please check it and inform the "
+"customer if the date is available or not."
+msgstr ""
+
+#: templates/emails/admin-new-booking.php:57
+#, php-format
+msgid "You can view and edit this booking in the dashboard here: %s"
+msgstr ""
+
+#: templates/emails/customer-booking-cancelled.php:13
+#: templates/emails/customer-booking-confirmed.php:13
+#: templates/emails/plain/customer-booking-cancelled.php:11
+#: templates/emails/plain/customer-booking-confirmed.php:12
+#, php-format
+msgid "Hello %s"
+msgstr ""
+
+#: templates/emails/customer-booking-cancelled.php:16
+#: templates/emails/plain/customer-booking-cancelled.php:14
+msgid ""
+"We are sorry to say that your booking could not be confirmed and has been "
+"cancelled. The details of the cancelled booking can be found below."
+msgstr ""
+
+#: templates/emails/customer-booking-cancelled.php:49
+#: templates/emails/plain/customer-booking-cancelled.php:32
+msgid "Please contact us if you have any questions or concerns."
+msgstr ""
+
+#: templates/emails/customer-booking-confirmed.php:16
+msgid ""
+"Your booking has been confirmed. The details of your booking are shown below."
+msgstr ""
+
+#: templates/emails/customer-booking-confirmed.php:54
+#, php-format
+msgid "To pay for this booking please use the following link: %s"
+msgstr ""
+
+#: templates/emails/customer-booking-confirmed.php:54
+msgid "Pay for booking"
+msgstr ""
+
+#: templates/emails/rescheduled-booking-admin.php:11
+#: templates/emails/plain/rescheduled-booking-admin.php:10
+#, php-format
+msgid ""
+"Bookings have been rescheduled for an order from %s. The order is as follows:"
+msgstr ""
+
+#: templates/emails/rescheduled-booking-admin.php:15
+#: templates/emails/plain/rescheduled-booking-admin.php:12
+#, php-format
+msgid "Order #%s"
+msgstr ""
+
+#: templates/emails/rescheduled-booking-admin.php:23
+msgid "Rescheduled Product"
+msgstr ""
+
+#: templates/emails/plain/admin-gcal-import-event.php:12
+#, php-format
+msgid "Event Summary: %s"
+msgstr ""
+
+#: templates/emails/plain/admin-gcal-import-event.php:14
+#, php-format
+msgid "Event Description: %s"
+msgstr ""
+
+#: templates/emails/plain/admin-gcal-import-event.php:16
+#, php-format
+msgid "Event Start Date: %s"
+msgstr ""
+
+#: templates/emails/plain/admin-gcal-import-event.php:19
+#, php-format
+msgid "Event End Date: %s"
+msgstr ""
+
+#: templates/emails/plain/admin-gcal-import-event.php:23
+#, php-format
+msgid "Event Time: %s"
+msgstr ""
+
+#: templates/emails/plain/admin-new-booking.php:22
+#: templates/emails/plain/customer-booking-cancelled.php:18
+#: templates/emails/plain/customer-booking-confirmed.php:18
+#, php-format
+msgid "Booked: %s"
+msgstr ""
+
+#: templates/emails/plain/admin-new-booking.php:24
+#: templates/emails/plain/admin-new-booking.php:27
+#: templates/emails/plain/admin-new-booking.php:31
+#: templates/emails/plain/customer-booking-cancelled.php:20
+#: templates/emails/plain/customer-booking-cancelled.php:23
+#: templates/emails/plain/customer-booking-cancelled.php:27
+#: templates/emails/plain/customer-booking-confirmed.php:20
+#: templates/emails/plain/customer-booking-confirmed.php:23
+#: templates/emails/plain/customer-booking-confirmed.php:27
+#: templates/emails/plain/rescheduled-booking-admin.php:18
+#: templates/emails/plain/rescheduled-booking-admin.php:21
+#: templates/emails/plain/rescheduled-booking-admin.php:25
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: templates/emails/plain/customer-booking-confirmed.php:14
+msgid ""
+"Your booking for has been confirmed. The details of your booking are shown "
+"below."
+msgstr ""
+
+#: templates/emails/plain/rescheduled-booking-admin.php:16
+#, php-format
+msgid "Rescheduled Product: %s"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-customer-meta-box.php:50
+msgid "Customer details"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-customer-meta-box.php:72
+msgid "Name:"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-customer-meta-box.php:76
+#: templates/meta-boxes/class-bkap-customer-meta-box.php:94
+msgid "Email:"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-customer-meta-box.php:90
+msgid "Address:"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-customer-meta-box.php:91
+msgid "No billing address set."
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-customer-meta-box.php:98
+msgid "Phone:"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:71
+msgid ""
+"This booking is scheduled over 2 years into the future. Please ensure this "
+"is correct."
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:86
+msgid "This booking has an end date set before the start date."
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:91
+msgid ""
+"It appears the booking product associated with this booking has been removed."
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:173
+#, php-format
+msgid "Booking #%s details"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:176
+#, php-format
+msgid "Linked to order %s."
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:183
+msgid "General details"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:186
+msgid "Order ID:"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:192
+msgid "Date created:"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:193
+msgid "h"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:193
+msgid "m"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:197
+msgid "Booking status:"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:206
+msgid "Customer:"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:213
+#, php-format
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:231
+msgid "Booking specification"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:234
+msgid "Booked Product:"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:249
+msgid "Quantity:"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:302
+msgid ""
+"This screen can be used to edit only the booking details and the product "
+"quantity."
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-details-meta-box.php:348
+msgid "Are you sure you want to trash the booking?"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-save-meta-box.php:50
+msgid "Booking actions"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-save-meta-box.php:66
+msgid "Move to trash"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-save-meta-box.php:69
+msgid "Save Booking"
+msgstr ""
+
+#: templates/meta-boxes/class-bkap-save-meta-box.php:69
+msgid "Save/update the booking"
+msgstr ""

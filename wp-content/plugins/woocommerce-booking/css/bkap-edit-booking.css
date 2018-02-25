@@ -1,0 +1,120 @@
+/* The Modal (background) */
+.bkap-modal {
+	display: none; 		/* Hidden by default */
+	position: fixed; 	/* Stay in place */
+	z-index: 999; 		/* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; 		/* Full width */
+	height: 100%; 		/* Full height */
+	overflow: auto; 	/* Enable scroll if needed */
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.bkap-booking-contents {
+	position: relative;
+	background-color: #fff;
+	margin: auto;
+	padding: 0;
+	border: 1px solid #888;
+	width: 70%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s;
+	border-radius: 10px;
+	text-align: left;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* Modal Header Section */
+.bkap-booking-header {
+    padding: 4px;
+    /*background-color: #5cb85c;
+    color: white;*/
+}
+
+.bkap-header-title {
+	width: 90%;
+	float: left;
+	text-align: left;
+}
+
+.bkap-header-title h1 {
+	padding-left: 20px;
+}
+
+/* The Close Button */
+.bkap-header-close {
+	text-align: center;
+	cursor: pointer;
+	width: 10%;
+	float: right;
+}
+
+.bkap-header-close::before {
+	font-size: 23px;
+    font-family: dashicons;
+    line-height: 53px;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    content: "\f335";
+}
+
+.bkap-header-close:hover,
+.bkap-header-close:focus {
+    color: #888;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*.modal-body {padding: 2px 16px;}*/
+
+.modal-footer {
+    padding: 4px;
+    /*background-color: #5cb85c;
+    color: white;*/
+}
+
+.bkap_modal_button_class {
+	margin: 5px 10px;
+}
+
+.bkap_modal_price {
+	padding: 1em;
+}
+
+.bkap_save {
+	position: absolute; 
+	width: 100%; 
+	height: 100%; 
+	background: url('../images/reschedule-save.gif') no-repeat center center;
+	z-index: 9;
+	display: none;
+}
+
+@media (max-width: 600px) {
+	.bkap-booking-contents {
+		width: 100%;
+	}	
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+	.bkap-booking-contents {
+		width: 80%;
+	}	
+}
